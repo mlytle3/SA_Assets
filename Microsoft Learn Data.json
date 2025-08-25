@@ -1,0 +1,1088 @@
+{
+  "Attachments": true,
+  "VerifiableCredentials": {
+    "docsId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+    "userCredentials": []
+  },
+  "Progress": {
+    "completedLearningItems": [
+      {
+        "title": "learn.wwl.introduce-foundation-pillars-devops.introduction",
+        "type": "unit",
+        "completedAt": "2025-05-24T15:50:06.640667Z"
+      },
+      {
+        "title": "learn.wwl.introduce-foundation-pillars-devops.discover-devops",
+        "type": "unit",
+        "completedAt": "2025-05-24T15:52:42.2105294Z"
+      },
+      {
+        "title": "learn.wwl.introduce-foundation-pillars-devops.explore-first-foundation",
+        "type": "unit",
+        "completedAt": "2025-05-24T15:56:46.9696263Z"
+      },
+      {
+        "title": "learn.wwl.introduce-foundation-pillars-devops.explore-second-foundation",
+        "type": "unit",
+        "completedAt": "2025-05-24T21:01:40.7728898Z"
+      },
+      {
+        "title": "learn.wwl.introduce-foundation-pillars-devops.knowledge-check",
+        "type": "unit",
+        "completedAt": "2025-05-24T21:09:08.1095661Z"
+      },
+      {
+        "title": "learn.wwl.introduce-foundation-pillars-devops.summary",
+        "type": "unit",
+        "completedAt": "2025-05-24T21:09:20.4746744Z"
+      },
+      {
+        "title": "learn.wwl.introduce-foundation-pillars-devops",
+        "type": "module",
+        "completedAt": "2025-05-24T21:09:20.4746862Z"
+      },
+      {
+        "title": "learn.wwl.analyze-devops-continuous-planning-intergration.introduction",
+        "type": "unit",
+        "completedAt": "2025-06-19T19:25:55.1527193Z"
+      },
+      {
+        "title": "learn.wwl.analyze-devops-continuous-planning-intergration.explore-continuous-planning",
+        "type": "unit",
+        "completedAt": "2025-06-19T19:27:13.7023938Z"
+      },
+      {
+        "title": "learn.wwl.analyze-devops-continuous-planning-intergration.analyze-continuous-integration",
+        "type": "unit",
+        "completedAt": "2025-06-19T19:41:36.5861874Z"
+      },
+      {
+        "title": "learn.wwl.analyze-devops-continuous-planning-intergration.knowledge-check",
+        "type": "unit",
+        "completedAt": "2025-06-19T19:58:07.9482854Z"
+      },
+      {
+        "title": "learn.wwl.analyze-devops-continuous-planning-intergration.summary",
+        "type": "unit",
+        "completedAt": "2025-06-19T19:58:46.3318852Z"
+      },
+      {
+        "title": "learn.wwl.analyze-devops-continuous-planning-intergration",
+        "type": "module",
+        "completedAt": "2025-06-19T19:58:46.3318921Z"
+      },
+      {
+        "title": "learn.wwl.characterize-devops-continous-collaboration-improvement.introduction",
+        "type": "unit",
+        "completedAt": "2025-06-19T20:03:18.8531404Z"
+      },
+      {
+        "title": "learn.wwl.characterize-devops-continous-collaboration-improvement.explore-continuous-collaboration",
+        "type": "unit",
+        "completedAt": "2025-06-19T20:04:57.3160585Z"
+      },
+      {
+        "title": "learn.wwl.characterize-devops-continous-collaboration-improvement.explore-continuous-improvement",
+        "type": "unit",
+        "completedAt": "2025-06-19T20:11:53.1266945Z"
+      },
+      {
+        "title": "learn.wwl.characterize-devops-continous-collaboration-improvement.knowledge-check",
+        "type": "unit",
+        "completedAt": "2025-06-20T18:56:09.7780222Z"
+      },
+      {
+        "title": "learn.wwl.characterize-devops-continous-collaboration-improvement.summary",
+        "type": "unit",
+        "completedAt": "2025-06-20T18:56:59.4985687Z"
+      },
+      {
+        "title": "learn.wwl.characterize-devops-continous-collaboration-improvement",
+        "type": "module",
+        "completedAt": "2025-06-20T18:56:59.4985738Z"
+      },
+      {
+        "title": "learn.wwl.define-foundation-pillars.introduction",
+        "type": "unit",
+        "completedAt": "2025-06-20T19:05:24.1820032Z"
+      },
+      {
+        "title": "learn.wwl.define-foundation-pillars.explore-third-foundation-pillar",
+        "type": "unit",
+        "completedAt": "2025-06-20T19:07:19.2667292Z"
+      },
+      {
+        "title": "learn.wwl.define-foundation-pillars.explore-last-foundation",
+        "type": "unit",
+        "completedAt": "2025-06-20T20:42:09.0072758Z"
+      },
+      {
+        "title": "learn.wwl.define-foundation-pillars.knowledge-check",
+        "type": "unit",
+        "completedAt": "2025-06-20T20:56:38.6461583Z"
+      },
+      {
+        "title": "learn.wwl.define-foundation-pillars.summary",
+        "type": "unit",
+        "completedAt": "2025-06-20T20:57:31.8348412Z"
+      },
+      {
+        "title": "learn.wwl.define-foundation-pillars",
+        "type": "module",
+        "completedAt": "2025-06-20T20:57:31.8348471Z"
+      },
+      {
+        "title": "learn.wwl.explain-devops-continous-delivery-quality.introduction",
+        "type": "unit",
+        "completedAt": "2025-06-20T21:02:14.4492144Z"
+      },
+      {
+        "title": "learn.wwl.explain-devops-continous-delivery-quality.use-continuous-delivery-release-faster",
+        "type": "unit",
+        "completedAt": "2025-06-20T21:03:47.5517677Z"
+      },
+      {
+        "title": "learn.wwl.explain-devops-continous-delivery-quality.explore-continuous-quality",
+        "type": "unit",
+        "completedAt": "2025-06-20T21:10:04.6479985Z"
+      },
+      {
+        "title": "learn.wwl.explain-devops-continous-delivery-quality.knowledge-check",
+        "type": "unit",
+        "completedAt": "2025-06-20T21:20:32.3080395Z"
+      },
+      {
+        "title": "learn.wwl.explain-devops-continous-delivery-quality.summary",
+        "type": "unit",
+        "completedAt": "2025-06-20T21:21:12.2499777Z"
+      },
+      {
+        "title": "learn.wwl.explain-devops-continous-delivery-quality",
+        "type": "module",
+        "completedAt": "2025-06-20T21:21:12.2499849Z"
+      },
+      {
+        "title": "learn.wwl.explore-devops-continuous-security-operations.introduction",
+        "type": "unit",
+        "completedAt": "2025-06-20T21:32:55.4108457Z"
+      },
+      {
+        "title": "learn.wwl.explore-devops-continuous-security-operations.explore-continuous-security",
+        "type": "unit",
+        "completedAt": "2025-06-20T21:34:28.2512342Z"
+      },
+      {
+        "title": "learn.wwl.explore-devops-continuous-security-operations.explore-continuous-operations",
+        "type": "unit",
+        "completedAt": "2025-06-20T21:43:38.9330946Z"
+      },
+      {
+        "title": "learn.wwl.explore-devops-continuous-security-operations.knowledge-check",
+        "type": "unit",
+        "completedAt": "2025-06-20T21:59:13.8041749Z"
+      },
+      {
+        "title": "learn.wwl.explore-devops-continuous-security-operations.summary",
+        "type": "unit",
+        "completedAt": "2025-06-20T21:59:26.3958667Z"
+      },
+      {
+        "title": "learn.wwl.explore-devops-continuous-security-operations",
+        "type": "module",
+        "completedAt": "2025-06-20T21:59:26.3958754Z"
+      },
+      {
+        "title": "learn.wwl.foundations-platform-engineering.introduction",
+        "type": "unit",
+        "completedAt": "2025-06-26T17:26:48.5215843Z"
+      },
+      {
+        "title": "learn.azdo.route-system-feedback.1-introduction",
+        "type": "unit",
+        "completedAt": "2025-06-26T17:37:43.3716356Z"
+      },
+      {
+        "title": "learn.azdo.route-system-feedback.2-continuously-monitor",
+        "type": "unit",
+        "completedAt": "2025-06-26T17:39:48.8144712Z"
+      },
+      {
+        "title": "learn.azdo.route-system-feedback.3-monitoring-status-dashboards",
+        "type": "unit",
+        "completedAt": "2025-07-09T18:23:11.2734735Z"
+      },
+      {
+        "title": "learn.azdo.route-system-feedback.4-knowledge-check",
+        "type": "unit",
+        "completedAt": "2025-07-20T22:41:19.329034Z"
+      },
+      {
+        "title": "learn.azdo.route-system-feedback.5-summary",
+        "type": "unit",
+        "completedAt": "2025-07-20T22:42:01.5947688Z"
+      },
+      {
+        "title": "learn.azdo.route-system-feedback",
+        "type": "module",
+        "completedAt": "2025-07-20T22:42:01.5947773Z"
+      },
+      {
+        "title": "learn.wwl.describe-cost-management-azure.introduction",
+        "type": "unit",
+        "completedAt": "2025-07-20T22:44:47.8298437Z"
+      },
+      {
+        "title": "learn.wwl.describe-cost-management-azure.describe-factors-affect-costs-azure",
+        "type": "unit",
+        "completedAt": "2025-07-20T22:45:13.7493687Z"
+      },
+      {
+        "title": "learn.wwl.describe-cost-management-azure.compare-pricing-total-cost-of-ownership-calculators",
+        "type": "unit",
+        "completedAt": "2025-07-20T22:56:42.1393616Z"
+      },
+      {
+        "title": "learn.wwl.describe-cost-management-azure.exercise-estimate-workload-costs-use-pricing-calculator",
+        "type": "unit",
+        "completedAt": "2025-07-20T22:59:15.8628536Z"
+      },
+      {
+        "title": "learn.wwl.describe-cost-management-azure.exercise-compare-workload-costs-use-total-cost-ownership-calculator",
+        "type": "unit",
+        "completedAt": "2025-07-20T23:08:00.7115104Z"
+      },
+      {
+        "title": "learn.wwl.describe-cost-management-azure.describe-azure-tool",
+        "type": "unit",
+        "completedAt": "2025-07-20T23:28:51.7081557Z"
+      },
+      {
+        "title": "learn.wwl.describe-cost-management-azure.describe-purpose-of-tags",
+        "type": "unit",
+        "completedAt": "2025-07-20T23:34:47.9602714Z"
+      },
+      {
+        "title": "learn.wwl.describe-cost-management-azure.summary",
+        "type": "unit",
+        "completedAt": "2025-08-22T23:04:35.5203884Z"
+      },
+      {
+        "title": "learn.wwl.describe-cost-management-azure.knowledge-check",
+        "type": "unit",
+        "completedAt": "2025-08-22T23:05:31.0699775Z"
+      },
+      {
+        "title": "learn.wwl.describe-cost-management-azure",
+        "type": "module",
+        "completedAt": "2025-08-22T23:05:31.0699854Z"
+      },
+      {
+        "title": "learn.wwl.discover-devops.introduction",
+        "type": "unit",
+        "completedAt": "2025-08-19T15:12:59.630835Z"
+      },
+      {
+        "title": "learn.wwl.discover-devops.what-is-devops",
+        "type": "unit",
+        "completedAt": "2025-08-19T15:21:54.3257888Z"
+      },
+      {
+        "title": "learn.wwl.discover-devops.explore-devops-culture",
+        "type": "unit",
+        "completedAt": "2025-08-19T15:29:42.3775879Z"
+      },
+      {
+        "title": "learn.wwl.discover-devops.explore-devops-goals-benefits",
+        "type": "unit",
+        "completedAt": "2025-08-19T15:33:41.5036785Z"
+      },
+      {
+        "title": "learn.wwl.discover-devops.explore-devops-application-lifecycle",
+        "type": "unit",
+        "completedAt": "2025-08-19T15:49:38.5981626Z"
+      },
+      {
+        "title": "learn.wwl.discover-devops.knowledge-check",
+        "type": "unit",
+        "completedAt": "2025-08-19T15:59:32.4044963Z"
+      },
+      {
+        "title": "learn.wwl.discover-devops.summary",
+        "type": "unit",
+        "completedAt": "2025-08-19T16:00:14.5494968Z"
+      },
+      {
+        "title": "learn.wwl.discover-devops",
+        "type": "module",
+        "completedAt": "2025-08-19T16:00:14.5495072Z"
+      },
+      {
+        "title": "learn.wwl.plan-with-devops.introduction",
+        "type": "unit",
+        "completedAt": "2025-08-19T16:08:37.7553227Z"
+      },
+      {
+        "title": "learn.wwl.plan-with-devops.foster-devops-culture",
+        "type": "unit",
+        "completedAt": "2025-08-19T16:10:26.6688575Z"
+      },
+      {
+        "title": "learn.wwl.plan-with-devops.what-is-agile",
+        "type": "unit",
+        "completedAt": "2025-08-19T16:14:34.2931294Z"
+      },
+      {
+        "title": "learn.wwl.plan-with-devops.explore-devops-practices",
+        "type": "unit",
+        "completedAt": "2025-08-19T16:26:08.2307604Z"
+      },
+      {
+        "title": "learn.wwl.plan-with-devops.plan-with-github",
+        "type": "unit",
+        "completedAt": "2025-08-19T16:31:06.5332256Z"
+      },
+      {
+        "title": "learn.wwl.plan-with-devops.agile-plan-and-management-using-github",
+        "type": "unit",
+        "completedAt": "2025-08-19T16:39:14.4233536Z"
+      }
+    ],
+    "learningPathPasses": [
+      {
+        "id": "48ee1265-76cf-410f-9c0d-e3c20d0eef26|learn.wwl.devops-dojo-white-belt-foundation",
+        "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "learningPathUid": "learn.wwl.devops-dojo-white-belt-foundation",
+        "passedOn": "2025-06-20T21:59:13.7952066+00:00"
+      },
+      {
+        "id": "48ee1265-76cf-410f-9c0d-e3c20d0eef26|learn.az-400-facilitate-communication-collaboration",
+        "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "learningPathUid": "learn.az-400-facilitate-communication-collaboration",
+        "passedOn": "2025-07-20T22:41:56.9092097+00:00"
+      }
+    ],
+    "moduleAssessments": [
+      {
+        "moduleUid": "learn.wwl.introduce-foundation-pillars-devops",
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2025-05-24T21:09:08.0777253Z",
+        "moduleAssessmentPreviousAttempts": [
+          {
+            "questionsToPass": 5,
+            "questionsToTake": 5,
+            "questionsAnsweredCorrectly": 5,
+            "sessionEndDate": "2025-06-20T21:29:36.3421932Z",
+            "passCriteria": 100
+          },
+          {
+            "questionsToPass": 5,
+            "questionsToTake": 5,
+            "questionsAnsweredCorrectly": 3,
+            "sessionEndDate": "2025-06-20T21:28:56.2045426Z",
+            "passCriteria": 100
+          },
+          {
+            "questionsToPass": 5,
+            "questionsToTake": 5,
+            "questionsAnsweredCorrectly": 2,
+            "sessionEndDate": "2025-06-20T21:27:50.0098802Z",
+            "passCriteria": 100
+          },
+          {
+            "questionsToPass": 5,
+            "questionsToTake": 5,
+            "questionsAnsweredCorrectly": 5,
+            "sessionEndDate": "2025-05-24T21:09:08.0777253Z",
+            "passCriteria": 100
+          }
+        ]
+      },
+      {
+        "moduleUid": "learn.wwl.analyze-devops-continuous-planning-intergration",
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2025-06-19T19:58:37.4334547Z",
+        "moduleAssessmentPreviousAttempts": [
+          {
+            "questionsToPass": 5,
+            "questionsToTake": 5,
+            "questionsAnsweredCorrectly": 5,
+            "sessionEndDate": "2025-06-19T19:58:37.4334547Z",
+            "passCriteria": 100
+          },
+          {
+            "questionsToPass": 5,
+            "questionsToTake": 5,
+            "questionsAnsweredCorrectly": 4,
+            "sessionEndDate": "2025-06-19T19:58:07.9222853Z",
+            "passCriteria": 100
+          }
+        ]
+      },
+      {
+        "moduleUid": "learn.wwl.characterize-devops-continous-collaboration-improvement",
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2025-06-20T18:56:51.5550465Z",
+        "moduleAssessmentPreviousAttempts": [
+          {
+            "questionsToPass": 5,
+            "questionsToTake": 5,
+            "questionsAnsweredCorrectly": 5,
+            "sessionEndDate": "2025-06-20T18:56:51.5550465Z",
+            "passCriteria": 100
+          },
+          {
+            "questionsToPass": 5,
+            "questionsToTake": 5,
+            "questionsAnsweredCorrectly": 4,
+            "sessionEndDate": "2025-06-20T18:56:09.7628155Z",
+            "passCriteria": 100
+          }
+        ]
+      },
+      {
+        "moduleUid": "learn.wwl.define-foundation-pillars",
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2025-06-20T20:57:24.9752695Z",
+        "moduleAssessmentPreviousAttempts": [
+          {
+            "questionsToPass": 4,
+            "questionsToTake": 4,
+            "questionsAnsweredCorrectly": 4,
+            "sessionEndDate": "2025-06-20T20:57:24.9752695Z",
+            "passCriteria": 100
+          },
+          {
+            "questionsToPass": 4,
+            "questionsToTake": 4,
+            "questionsAnsweredCorrectly": 3,
+            "sessionEndDate": "2025-06-20T20:56:38.6317414Z",
+            "passCriteria": 100
+          }
+        ]
+      },
+      {
+        "moduleUid": "learn.wwl.explain-devops-continous-delivery-quality",
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2025-06-20T21:22:31.8695099Z",
+        "moduleAssessmentPreviousAttempts": [
+          {
+            "questionsToPass": 5,
+            "questionsToTake": 5,
+            "questionsAnsweredCorrectly": 5,
+            "sessionEndDate": "2025-06-20T21:22:31.8695099Z",
+            "passCriteria": 100
+          },
+          {
+            "questionsToPass": 5,
+            "questionsToTake": 5,
+            "questionsAnsweredCorrectly": 4,
+            "sessionEndDate": "2025-06-20T21:22:10.0357674Z",
+            "passCriteria": 100
+          },
+          {
+            "questionsToPass": 5,
+            "questionsToTake": 5,
+            "questionsAnsweredCorrectly": 4,
+            "sessionEndDate": "2025-06-20T21:21:37.4845736Z",
+            "passCriteria": 100
+          },
+          {
+            "questionsToPass": 5,
+            "questionsToTake": 5,
+            "questionsAnsweredCorrectly": 4,
+            "sessionEndDate": "2025-06-20T21:20:32.2773485Z",
+            "passCriteria": 100
+          }
+        ]
+      },
+      {
+        "moduleUid": "learn.wwl.explore-devops-continuous-security-operations",
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2025-06-20T21:59:13.7681869Z",
+        "moduleAssessmentPreviousAttempts": [
+          {
+            "questionsToPass": 5,
+            "questionsToTake": 5,
+            "questionsAnsweredCorrectly": 5,
+            "sessionEndDate": "2025-06-20T21:59:13.7681869Z",
+            "passCriteria": 100
+          }
+        ]
+      },
+      {
+        "moduleUid": "learn.azdo.route-system-feedback",
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2025-07-20T22:41:56.8910357Z",
+        "moduleAssessmentPreviousAttempts": [
+          {
+            "questionsToPass": 3,
+            "questionsToTake": 3,
+            "questionsAnsweredCorrectly": 3,
+            "sessionEndDate": "2025-07-20T22:41:56.8910357Z",
+            "passCriteria": 100
+          },
+          {
+            "questionsToPass": 3,
+            "questionsToTake": 3,
+            "questionsAnsweredCorrectly": 2,
+            "sessionEndDate": "2025-07-20T22:41:19.3012848Z",
+            "passCriteria": 100
+          }
+        ]
+      },
+      {
+        "moduleUid": "learn.wwl.discover-devops",
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2025-08-19T15:59:32.3839859Z",
+        "moduleAssessmentPreviousAttempts": [
+          {
+            "questionsToPass": 7,
+            "questionsToTake": 9,
+            "questionsAnsweredCorrectly": 8,
+            "sessionEndDate": "2025-08-19T15:59:32.3839859Z",
+            "passCriteria": 70
+          }
+        ]
+      },
+      {
+        "moduleUid": "learn.wwl.describe-cost-management-azure",
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2025-08-22T23:05:31.0490795Z",
+        "moduleAssessmentPreviousAttempts": [
+          {
+            "questionsToPass": 2,
+            "questionsToTake": 2,
+            "questionsAnsweredCorrectly": 2,
+            "sessionEndDate": "2025-08-22T23:05:31.0490795Z",
+            "passCriteria": 100
+          }
+        ]
+      }
+    ]
+  },
+  "NextSteps": {
+    "docsId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+    "dismissals": [],
+    "enrollments": [
+      {
+        "id": "048619ed-7563-4bea-9a29-36ad397c1fa0",
+        "partitionKey": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "sourceType": "collection",
+        "sourceId": "dr7yb1tgm7xy0z",
+        "_ts": 1748101708
+      },
+      {
+        "id": "84459e79-4051-4173-8c2d-00e0169be96b",
+        "partitionKey": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "sourceType": "learningpath",
+        "sourceId": "learn.wwl.devops-dojo-white-belt-foundation",
+        "_ts": 1750446324
+      },
+      {
+        "id": "178b82c7-3d20-4e31-8f49-5e3dbac8b0c7",
+        "partitionKey": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "sourceType": "learningpath",
+        "sourceId": "learn.az-400-facilitate-communication-collaboration",
+        "_ts": 1750959463
+      },
+      {
+        "id": "c7afacbe-0a7f-4a97-83c0-c2452851390b",
+        "partitionKey": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "sourceType": "learningpath",
+        "sourceId": "learn.wwl.describe-azure-management-governance",
+        "_ts": 1753051487
+      },
+      {
+        "id": "ce4f5ce6-62c4-4d71-9580-3d45eadfb488",
+        "partitionKey": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "sourceType": "collection",
+        "sourceId": "4e51txt241y35y",
+        "_ts": 1755615629
+      },
+      {
+        "id": "2b9b2964-996d-415f-95d1-22d1f69e35ab",
+        "partitionKey": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "sourceType": "learningpath",
+        "sourceId": "learn.wwl.devops-foundations-core-principles-practices",
+        "_ts": 1755619717
+      }
+    ]
+  },
+  "Lists": {
+    "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+    "lists": [
+      {
+        "id": "bookmarks",
+        "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "name": "Bookmarks",
+        "description": "",
+        "type": "bookmarks",
+        "lastModified": "2025-08-19T15:21:21+00:00",
+        "totalItems": 1,
+        "items": [
+          {
+            "id": "bookmarks_docs-2E7C5B1309B323A9D9AE513FEB3C1B99",
+            "listId": "bookmarks",
+            "type": "docs",
+            "data": {
+              "url": "/training/paths/devops-foundations-core-principles-practices/",
+              "rawUrl": "https://learn.microsoft.com/en-us/training/paths/devops-foundations-core-principles-practices/",
+              "title": "DevOps foundations: The core principles and practices AZ-2008 - Training",
+              "docId": "7584633a-12d5-e4f5-303d-0e10be3cf76a",
+              "docVIId": "7584633a-12d5-e4f5-303d-0e10be3cf76a",
+              "platformId": "2c850fe2-6efe-db70-1c0a-f77658dd8393",
+              "pageType": "learn",
+              "pageKind": "path",
+              "uid": "learn.wwl.devops-foundations-core-principles-practices",
+              "challengeId": null,
+              "eventUid": "",
+              "durationInMillisecond": null,
+              "showId": ""
+            },
+            "lastModified": "2025-08-19T15:21:21+00:00"
+          }
+        ],
+        "itemCount": 1,
+        "sections": [],
+        "sectionCount": 0,
+        "isPrivate": false,
+        "isOfficial": false,
+        "shouldLocalize": false,
+        "isLocalized": false,
+        "isFallbackLocale": false,
+        "showUserDisplayName": false,
+        "moduleCount": 0,
+        "completedModuleCount": 0,
+        "remainingDuration": 0,
+        "totalDuration": 0
+      }
+    ],
+    "createdSkillingPlans": {
+      "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+      "skillingPlanFilter": 1,
+      "skillingPlans": [
+        {
+          "id": "wpjqtztj2dg6kz",
+          "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+          "listId": "4e51txt241y35y",
+          "learningOutcomes": [
+            "By the end of this plan, you'll be able to: explain the core principles of DevOps and Scrum methodologies to enhance team collaboration and efficiency.",
+            "By the end of this plan, you'll be able to: implement continuous integration and delivery practices using Azure DevOps and GitHub to streamline project workflows.",
+            "By the end of this plan, you'll be able to: facilitate effective communication and collaboration among cross-functional teams to support agile project management."
+          ],
+          "source": "learn-copilot",
+          "contentList": {
+            "id": "4e51txt241y35y",
+            "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+            "name": "Coordinate DevOps Practices with Scrum",
+            "description": "Learn how to coordinate DevOps practices using Scrum methodologies to enhance collaboration, streamline workflows, and improve project delivery across teams with Azure DevOps and GitHub.",
+            "type": "collection",
+            "lastModified": "2025-08-19T14:56:08+00:00",
+            "totalItems": 3,
+            "items": [],
+            "itemCount": 0,
+            "sections": [],
+            "sectionCount": 1,
+            "isPrivate": false,
+            "isOfficial": false,
+            "shouldLocalize": false,
+            "isLocalized": false,
+            "isFallbackLocale": false,
+            "showUserDisplayName": false,
+            "moduleCount": 0,
+            "completedModuleCount": 0,
+            "remainingDuration": 0,
+            "totalDuration": 0,
+            "skillingPlanId": "wpjqtztj2dg6kz"
+          },
+          "publishedOn": "2025-08-19T14:56:08.6184197+00:00",
+          "hasParticipants": true,
+          "expectedParticipants": 0,
+          "lastModified": "2025-08-19T14:56:09+00:00"
+        },
+        {
+          "id": "dr7yb1tyzzj1pk",
+          "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+          "listId": "dr7yb1tgm7xy0z",
+          "learningOutcomes": [
+            "By the end of this plan, you'll be able to create multidisciplinary DevOps teams using Azure tools to improve software development efficiency.",
+            "By the end of this plan, you'll be able to design and implement secure and scalable platform architectures that align with business goals.",
+            "By the end of this plan, you'll be able to apply advanced DevOps practices to manage and optimize enterprise-level development workflows."
+          ],
+          "source": "learn-copilot",
+          "contentList": {
+            "id": "dr7yb1tgm7xy0z",
+            "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+            "name": "Implement DevOps Practices with Azure",
+            "description": "This plan covers essential DevOps practices using Azure tools, focusing on creating efficiencies, platform engineering, and enterprise DevOps strategies to enhance team collaboration and productivity.",
+            "type": "collection",
+            "lastModified": "2025-06-26T17:23:09+00:00",
+            "totalItems": 3,
+            "items": [],
+            "itemCount": 0,
+            "sections": [],
+            "sectionCount": 3,
+            "isPrivate": false,
+            "isOfficial": false,
+            "shouldLocalize": false,
+            "isLocalized": false,
+            "isFallbackLocale": false,
+            "showUserDisplayName": false,
+            "moduleCount": 0,
+            "completedModuleCount": 0,
+            "remainingDuration": 0,
+            "totalDuration": 0,
+            "skillingPlanId": "dr7yb1tyzzj1pk"
+          },
+          "publishedOn": "2025-06-26T17:22:22.509+00:00",
+          "hasParticipants": false,
+          "expectedParticipants": 0,
+          "lastModified": "2025-06-26T17:23:09+00:00"
+        },
+        {
+          "id": "86g8szt6yqz4n6",
+          "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+          "listId": "z6qrsdtyyqxmd",
+          "learningOutcomes": [
+            "By the end of this plan, you'll be able to facilitate effective communication and collaboration within your team using Azure DevOps tools.",
+            "By the end of this plan, you'll be able to implement Dynamics 365 solutions to streamline business processes and improve stakeholder engagement.",
+            "By the end of this plan, you'll be able to manage project lifecycles and deliver successful outcomes using Dynamics 365."
+          ],
+          "source": "learn-copilot",
+          "contentList": {
+            "id": "z6qrsdtyyqxmd",
+            "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+            "name": "Facilitate Collaboration and Implement Dynamics 365 Solutions",
+            "description": "This plan covers effective communication and collaboration techniques using Azure DevOps, alongside implementing Dynamics 365 projects to enhance business processes and team productivity.",
+            "type": "collection",
+            "lastModified": "2025-05-22T15:47:10+00:00",
+            "totalItems": 4,
+            "items": [],
+            "itemCount": 0,
+            "sections": [],
+            "sectionCount": 4,
+            "isPrivate": false,
+            "isOfficial": false,
+            "shouldLocalize": false,
+            "isLocalized": false,
+            "isFallbackLocale": false,
+            "showUserDisplayName": false,
+            "moduleCount": 0,
+            "completedModuleCount": 0,
+            "remainingDuration": 0,
+            "totalDuration": 0,
+            "skillingPlanId": "86g8szt6yqz4n6"
+          },
+          "hasParticipants": false,
+          "expectedParticipants": 0,
+          "lastModified": "2025-05-22T15:47:10+00:00"
+        }
+      ],
+      "count": 3
+    },
+    "createdLearnChallenges": {
+      "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+      "learnChallengeFilter": "all",
+      "challenges": [],
+      "count": 0
+    },
+    "userRegistrations": {
+      "id": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+      "registrations": [
+        {
+          "itemId": "wpjqtztj2dg6kz",
+          "registrationType": 1,
+          "startedOn": "2025-08-19T14:56:09.1515106+00:00",
+          "itemsCompleted": 2,
+          "clickItemsCompleted": []
+        }
+      ],
+      "lastModified": "2025-08-22T23:05:31+00:00"
+    }
+  },
+  "XP": {
+    "xp": {
+      "docsId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+      "totalXp": 12125,
+      "currentLevel": 4,
+      "currentLevelLow": 8000,
+      "currentLevelHigh": 13299,
+      "currentLevelPointsEarned": 4125,
+      "nextLevel": 5,
+      "pointsUntilNextLevel": 1175,
+      "achievementCategories": {
+        "Unknown": 0,
+        "Modules": 9,
+        "Courses": 0,
+        "Qna": 0,
+        "Challenges": 0,
+        "Events": 0,
+        "LearningPaths": 2,
+        "Plans": 0,
+        "Special": 0
+      }
+    },
+    "achievements": [
+      {
+        "category": "modules",
+        "typeId": "learn.wwl.describe-cost-management-azure.badge",
+        "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "id": "2DYE8XYV",
+        "title": "Describe cost management in Azure",
+        "imageUrl": "/training/achievements/describe-cost-management-azure.svg",
+        "locale": "en-us",
+        "verified": true,
+        "source": "Progress",
+        "grantedOn": "2025-08-22T23:05:31.441Z",
+        "url": "/training/modules/describe-cost-management-azure/",
+        "milestoneEligible": true,
+        "version": 2877
+      },
+      {
+        "category": "modules",
+        "typeId": "learn.wwl.discover-devops.badge",
+        "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "id": "W2CJDLZN",
+        "title": "Discover DevOps",
+        "imageUrl": "/training/achievements/generic-trophy.svg",
+        "locale": "en-us",
+        "verified": true,
+        "source": "Progress",
+        "grantedOn": "2025-08-19T16:00:15.017Z",
+        "url": "/training/modules/discover-devops/",
+        "milestoneEligible": true,
+        "version": 8160
+      },
+      {
+        "category": "learningpaths",
+        "typeId": "az-400-facilitate-communication-collaboration.trophy",
+        "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "id": "VJW2UPKM",
+        "title": "Facilitate communication and collaboration",
+        "imageUrl": "/training/achievements/az-400-facilitate-communication-collaboration.svg",
+        "locale": "en-us",
+        "verified": true,
+        "source": "Progress",
+        "grantedOn": "2025-07-20T22:42:02.183Z",
+        "url": "/training/paths/az-400-facilitate-communication-collaboration/",
+        "milestoneEligible": true,
+        "version": 3352
+      },
+      {
+        "category": "modules",
+        "typeId": "learn.azdo.route-system-feedback.badge",
+        "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "id": "W258DYRN",
+        "title": "Route system feedback to development teams",
+        "imageUrl": "/training/achievements/azure-devops/route-system-feedback.svg",
+        "locale": "en-us",
+        "verified": true,
+        "source": "Progress",
+        "grantedOn": "2025-07-20T22:42:02.152Z",
+        "url": "/training/modules/route-system-feedback/",
+        "milestoneEligible": true,
+        "version": 2596
+      },
+      {
+        "category": "modules",
+        "typeId": "learn.wwl.explore-devops-continuous-security-operations.badge",
+        "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "id": "8ZDF394W",
+        "title": "Explore DevOps Continuous Security and Continuous Operations",
+        "imageUrl": "/training/achievements/explore-devops-continuous-security-operations.svg",
+        "locale": "en-us",
+        "verified": true,
+        "source": "Progress",
+        "grantedOn": "2025-06-20T21:59:27.028Z",
+        "url": "/training/modules/explore-devops-continuous-security-operations/",
+        "milestoneEligible": true,
+        "version": 2622
+      },
+      {
+        "category": "learningpaths",
+        "typeId": "learn.wwl.devops-dojo-white-belt-foundation.trophy",
+        "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "id": "9YPH6LQU",
+        "title": "Introduce DevOps Dojo: Create efficiencies that support your business",
+        "imageUrl": "/training/achievements/devops-dojo-white-belt-foundation.svg",
+        "locale": "en-us",
+        "verified": true,
+        "source": "Progress",
+        "grantedOn": "2025-06-20T21:59:27.028Z",
+        "url": "/training/paths/devops-dojo-white-belt-foundation/",
+        "milestoneEligible": true,
+        "version": 4096
+      },
+      {
+        "category": "modules",
+        "typeId": "learn.wwl.explain-devops-continous-delivery-quality.badge",
+        "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "id": "2DUQR72V",
+        "title": "Explain DevOps Continuous Delivery and Continuous Quality",
+        "imageUrl": "/training/achievements/explain-devops-continuous-delivery-quality.svg",
+        "locale": "en-us",
+        "verified": true,
+        "source": "Progress",
+        "grantedOn": "2025-06-20T21:22:31.987Z",
+        "url": "/training/modules/explain-devops-continous-delivery-quality/",
+        "milestoneEligible": true,
+        "version": 4538
+      },
+      {
+        "category": "modules",
+        "typeId": "learn.wwl.define-foundation-pillars.badge",
+        "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "id": "H7BN6MR8",
+        "title": "Define the foundation pillars of DevOps: Architecture and Technology",
+        "imageUrl": "/training/achievements/define-foundation-pillars-devops-architecture-technology.svg",
+        "locale": "en-us",
+        "verified": true,
+        "source": "Progress",
+        "grantedOn": "2025-06-20T20:57:34.923Z",
+        "url": "/training/modules/define-foundation-pillars/",
+        "milestoneEligible": true,
+        "version": 2905
+      },
+      {
+        "category": "modules",
+        "typeId": "learn.wwl.characterize-devops-continous-collaboration-improvement.badge",
+        "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "id": "9YPHQ9TU",
+        "title": "Characterize DevOps Continuous Collaboration and Continuous Improvement",
+        "imageUrl": "/training/achievements/characterize-devops-continuous-collaboration-improvement.svg",
+        "locale": "en-us",
+        "verified": true,
+        "source": "Progress",
+        "grantedOn": "2025-06-20T18:56:59.947Z",
+        "url": "/training/modules/characterize-devops-continous-collaboration-improvement/",
+        "milestoneEligible": true,
+        "version": 3553
+      },
+      {
+        "category": "modules",
+        "typeId": "learn.wwl.analyze-devops-continuous-planning-intergration.badge",
+        "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "id": "W2D9RSXN",
+        "title": "Analyze DevOps Continuous Planning and Continuous Integration",
+        "imageUrl": "/training/achievements/analyze-devops-continuous-planning-continuous-integration.svg",
+        "locale": "en-us",
+        "verified": true,
+        "source": "Progress",
+        "grantedOn": "2025-06-19T19:58:46.743Z",
+        "url": "/training/modules/analyze-devops-continuous-planning-intergration/",
+        "milestoneEligible": true,
+        "version": 4165
+      },
+      {
+        "category": "modules",
+        "typeId": "learn.wwl.introduce-foundation-pillars-devops.badge",
+        "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+        "id": "W2Q3SXPN",
+        "title": "Introduce the foundation pillars of DevOps: Culture and Lean Product",
+        "imageUrl": "/training/achievements/introduce-foundation-pillars-devops-culture-learn-product.svg",
+        "locale": "en-us",
+        "verified": true,
+        "source": "Progress",
+        "grantedOn": "2025-05-24T21:09:20.912Z",
+        "url": "/training/modules/introduce-foundation-pillars-devops/",
+        "milestoneEligible": true,
+        "version": 3102
+      }
+    ]
+  },
+  "TechProfile": {
+    "email": "",
+    "locale": "en-us",
+    "country": "",
+    "isInstructor": false,
+    "isChallengeAdmin": false,
+    "isQnaModerator": false,
+    "source": "docs",
+    "authenticationModes": [
+      {
+        "id": "0003BFFDD2B7BC9E",
+        "type": "MSA",
+        "tenantId": "9188040d-6c67-4c5b-b112-36a304b66dad",
+        "upn": "mdanaher20@gmail.com",
+        "oid": "00000000-0000-0000-d46e-aa26088c13a8",
+        "dateAcceptedPrivacyNotice": "2025-05-22T15:23:18.887482+00:00",
+        "dateAdded": "2025-05-22T15:23:18.887482+00:00"
+      },
+      {
+        "id": "a1492d31-5728-4183-a777-269e8fb4bea4",
+        "type": "AAD",
+        "tenantId": "47ea4cec-fe0f-48f5-9a09-a2f957278304",
+        "upn": "mdanaher20@email.phoenix.edu",
+        "oid": "a1492d31-5728-4183-a777-269e8fb4bea4",
+        "dateAcceptedPrivacyNotice": "2025-05-22T15:25:25.4180892+00:00",
+        "dateAdded": "2025-05-22T15:25:25.4180895+00:00"
+      }
+    ],
+    "transcriptSettings": {
+      "publicLink": {
+        "showModules": true,
+        "showLegalName": true,
+        "showMCID": true,
+        "showContactEmail": true
+      },
+      "print": {
+        "showModules": true,
+        "showLegalName": true,
+        "showMCID": true,
+        "showContactEmail": true
+      }
+    },
+    "certificationSettings": {
+      "print": {
+        "showLegalName": true,
+        "showMCID": true,
+        "showContactEmail": true
+      }
+    },
+    "qnaEmailPreferences": {
+      "allEmail": true,
+      "autoFollowAsked": true,
+      "autoFollowAnswered": true,
+      "autoFollowCommented": true,
+      "autoFollowTagged": false,
+      "emailEventSettings": {
+        "newMention": "instant",
+        "newModeration": "instant",
+        "answerPosted": "instant",
+        "answerAccepted": "instant",
+        "commentPosted": "instant",
+        "newPrivateMessage": "instant",
+        "questionUpdated": "off",
+        "questionPosted": "off",
+        "unansweredQuestions": "off",
+        "newFollower": "off",
+        "answerUpdated": "off"
+      }
+    },
+    "sharingId": "ECE08CC2F10FB842",
+    "legalName": {
+      "first": "Megan",
+      "middle": "Kathleen",
+      "last": "Lytle"
+    },
+    "userId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+    "userName": "MeganLytle-1445",
+    "displayName": "Megan Lytle",
+    "isPrivate": false,
+    "affiliations": [],
+    "followerCount": 0,
+    "followingCount": 0,
+    "answersAccepted": 0,
+    "reputationPoints": 0,
+    "createdOn": "5/22/2025 3:23:18 PM"
+  },
+  "Certifications": null,
+  "Q&A": {
+    "docsId": "48ee1265-76cf-410f-9c0d-e3c20d0eef26",
+    "questions": [],
+    "answers": [],
+    "comments": []
+  },
+  "SkillAssessment": null,
+  "Assessments": null
+}
