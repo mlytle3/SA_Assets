@@ -5,45 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Summit Agility</title>
   <link rel="icon" type="image/jpeg" href="SA_assets/copilot_image_1748998655806.jpeg" />
-  <style>
+
+<style>
  
-@font-face {
-  font-family: 'FranklinGothic';
-  src: url('SA_assets/fonts/FranklinGothic/ITCFranklinGothic-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 @font-face {
-  font-family: 'FranklinGothic';
-  src: url('SA_assets/fonts/FranklinGothic/ITCFranklinGothic-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'FranklinGothic';
-  src: url('SA_assets/fonts/FranklinGothic/ITCFranklinGothic-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'FranklinGothic';
-  src: url('SA_assets/fonts/FranklinGothic/ITCFranklinGothic-Book.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'MolleItalic';
+  font-family: 'Molle-Italic';
   src: url('SA_assets/fonts/Molle/Molle-Italic.ttf') format('truetype');
   font-style: italic;
   font-weight: normal;
 }
 
 footer p {
-  font-family: 'MolleItalic', cursive;
+  font-family: 'Molle-Italic', cursive;
   font-size: 1.2rem;
 }
 
@@ -59,8 +34,14 @@ footer p {
 
 body {
   margin: 0;
-  font-family: 'ITCFranklinGothic', Arial, sans-serif;
+  font-family: 'FranklinGothic', Arial, sans-serif;
   background-color: #f4f4f4;
+  color: var(--charcoal);
+}
+body {
+  margin: 0;
+  font-family: 'FranklinGothic', Arial, sans-serif;
+  background: linear-gradient(120deg,#d4af37 0%,#6a1b9a 100%);
   color: var(--charcoal);
 }
 
@@ -71,7 +52,7 @@ header img {
 }
 
 h1, h2 {
-  font-family: 'ITCFranklinGothic', Arial, sans-serif;
+  font-family: 'Molle-Italic', cursive;
   color: var(--dark-blue);
   text-align: center;
   margin-bottom: 1rem;
@@ -87,7 +68,11 @@ main {
   max-width: 1000px;
   margin: auto;
 }
-
+.banner {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 .columns {
   display: flex;
   flex-wrap: wrap;
@@ -141,94 +126,17 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1rem 0;
-  font-family: 'LariesScript', cursive;
+  font-family: 'MolleItalic', cursive;
   font-size: 1.2rem;
 }
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-
-    header img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    main {
-      padding: 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    h1, h2 {
-      text-align: center;
-      margin-bottom: 1rem;
-    }
-
-    .columns {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
-    }
-
-    .column {
-      flex: 1;
-      min-width: 250px;
-    }
-
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    li::before {
-      content: "• ";
-      color: #2c3e50;
-    }
-
-    .logo {
-      display: block;
-      margin: 2rem auto;
-      max-width: 150px;
-      height: auto;
-    }
-
-    iframe {
-      width: 100%;
-      height: 480px;
-      border: none;
-    }
-
-    .badges {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      justify-content: center;
-      margin-top: 2rem;
-    }
-
-    .badges img {
-      max-height: 100px;
-      height: auto;
-    }
-
-    footer {
-      background-color: #2c3e50;
-      color: #fff;
-      text-align: center;
-      padding: 1rem 0;
-      margin-top: 3rem;
-    }
+/* Removed duplicate CSS block below for clarity and to avoid overrides */
   </style>
 </head>
 <body>
 
   <header>
-    <img src="SA_assets/BannerSA.png" alt="Summit Agility Banner" />
-  </header>
+<img src="BannerSA.png" alt="Summit Agility Banner" />
+</header>
 
   <main>
     <h1>Summit Agility</h1>
