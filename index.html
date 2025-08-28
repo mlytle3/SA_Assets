@@ -5,14 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Summit Agility</title>
   <link rel="icon" type="image/jpeg" href="SA_assets/copilot_image_1748998655806.jpeg" />
-
-<style>
+  <style>
  
+@font-face {
+  font-family: 'LeagueGothic-Regular';
+  src: url('fonts/LeagueGothic/static/LeagueGothic-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'LeagueGothic_SemiCondensed-Regular';
+  src: url('fonts/League_Gothic/static/LeagueGothic_SemiCondensed-Regular.ttf') format('truetype');
+  font-weight: SemiCondense;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeagueGothic_Condensed-Regular';
+  src: url('fonts/League_Gothic/static/LeagueGothic_Condensed-Regular.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeagueGothic-Regular-VariableFont_wdth';
+  src: url('fonts/LeagueGothic/LeagueGothic-Regular-VariableFont_wdth.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'Molle-Italic';
-  src: url('SA_assets/fonts/Molle/Molle-Italic.ttf') format('truetype');
+  src: url('fonts/Molle/Molle-Italic.ttf') format('truetype');
   font-style: italic;
   font-weight: normal;
 }
@@ -28,20 +53,14 @@ footer p {
   --dark-blue: #2c3e50;
   --dark-green: #006400;
   --charcoal: #333333;
-  --gold: #d4af37;
+  --gold: #e1ad02;
   --orange: #f57c00;
 }
 
 body {
   margin: 0;
-  font-family: 'FranklinGothic', Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: var(--charcoal);
-}
-body {
-  margin: 0;
-  font-family: 'FranklinGothic', Arial, sans-serif;
-  background: linear-gradient(120deg,#d4af37 0%,#6a1b9a 100%);
+  font-family: 'LeagueGothic-Regular', Arial, sans-serif;
+  background-color: #e1ad02;
   color: var(--charcoal);
 }
 
@@ -68,11 +87,7 @@ main {
   max-width: 1000px;
   margin: auto;
 }
-.banner {
-  width: 100%;
-  height: auto;
-  display: block;
-}
+
 .columns {
   display: flex;
   flex-wrap: wrap;
@@ -126,17 +141,94 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1rem 0;
-  font-family: 'MolleItalic', cursive;
+  font-family: 'LariesScript', cursive;
   font-size: 1.2rem;
 }
-/* Removed duplicate CSS block below for clarity and to avoid overrides */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .columns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .column {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li::before {
+      content: "• ";
+      color: #2c3e50;
+    }
+
+    .logo {
+      display: block;
+      margin: 2rem auto;
+      max-width: 150px;
+      height: auto;
+    }
+
+    iframe {
+      width: 100%;
+      height: 480px;
+      border: none;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+
+    .badges img {
+      max-height: 100px;
+      height: auto;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 3rem;
+    }
   </style>
 </head>
 <body>
 
   <header>
-<img src="BannerSA.png" alt="Summit Agility Banner" />
-</header>
+    <img src="BannerSA.png" alt="Summit Agility Banner" />
+  </header>
 
   <main>
     <h1>Summit Agility</h1>
@@ -177,7 +269,7 @@ footer {
     </div>
 
     <h2>Who We Are</h2>
-    <img src="SA_assets/SAlogo.png" alt="Summit Agility logo featuring a stylized mountain peak with bold modern lettering Summit Agility below the graphic set against a clean white background conveying a sense of professionalism and upward growth" class="logo" />
+    <img src="SAlogo.png" alt="Summit Agility logo featuring a stylized mountain peak with bold modern lettering Summit Agility below the graphic set against a clean white background conveying a sense of professionalism and upward growth" class="logo" />
     <p><strong>Vision Statement:</strong> At Summit Agility, we envision a world where every individual and organization can thrive through the power of clear communication, collaborative spirit, and adaptive strategies. We aim to be the guiding force that empowers teams to reach their highest potential, fostering a community where growth, innovation, and human connection flourish.</p>
     <p><strong>Mission Statement:</strong> Our mission at Summit Agility is to provide exceptional support and tailored solutions that enable individuals and organizations to navigate the complexities of change with confidence and clarity. We are dedicated to cultivating environments of trust and open dialogue, where every voice is heard, and every idea has the opportunity to shine. With a commitment to excellence and a human-first approach, we strive to empower our clients to achieve their goals and build a better future, one collaborative step at a time.</p>
 
@@ -186,17 +278,16 @@ footer {
 
     <h2>Why Choose Us</h2>
     <div class="badges">
-      <img src="SA_assets/InclusiveLeadershipUoP.png" alt="Inclusive Leadership Badge" />
-      <img src="SA_assets/badge-7227.png" alt="Badge 7227" />
-      <img src="SA_assets/badge-50203.png" alt="Badge 50203" />
-      <img src="SA_assets/Agile Coaching Badge.png" alt="Agile Coaching Badge" />
+      <img src="InclusiveLeadershipUoP.png" alt="Inclusive Leadership Badge" />
+      <img src="badge-7227.png" alt="Badge 7227" />
+      <img src="badge-50203.png" alt="Badge 50203" />
+      <img src="Agile Coaching Badge.png" alt="Agile Coaching Badge" />
     </div>
 
     <h2>Coming Soon</h2>
-    <img src="SA_assets/cover desig.png" alt="Cover Design Preview" style="max-width:100%; height:auto;" />
-
-    <h2>Privacy Policy</h2>
-    <p>Social media icons and privacy details coming soon.</p>
+    <img src="cover design.png" alt="A man extends his arm to hand over a manilla folder labeled Shredder in large red letters and Resume in bold black letters at the bottom. The man appears focused and intent, set in a neutral office environment. The scene suggests urgency and confidentiality. Text in the image: Shredder, Resume." style="max-width:100%; height:auto;" />
+    <p>social Media</p>
+    <p><a href="privacy-policy.txt">Read our Privacy Policy</a></p>
   </main>
 
   <footer>
