@@ -1,134 +1,113 @@
-# README
+# SA_Assets
+Summit Agility Landing Page
+Summit Agility Landing Page Outline
 
-Summit Agility LLC Grand Opening Repository
+Banner
 
-Welcome to the official Grand Opening of Summit Agility LLC.
+Width: 100%
 
-Grand Opening Statement
+Image Path: C:\\Users\\mdana\\OneDrive\\Documents\\Desktop\\Summit Agility Page\\SA_assets\\BannerSA.png
 
-Summit Agility was born out of passion—not for titles or trends, but for people. For the founders who’ve already escaped the broken systems and are building something better. For the teams who want clarity, not chaos. For the ones who care more about getting it right than looking good.
-
-We’re not here to impress. We’re here to help. To show up when things get messy and make them clear again. To bring order without ego, and support without noise.
-
-Who We Are
-
-Vision Statement: Summit Agility works hard to match your broader goals—communication, clarity, connection, and real support for those building better—or just looking for a clear voice and a cup of coffee.
-
-Mission Statement: Summit Agility was founded to address the challenges faced by capable professionals working within inefficient systems. The company provides practical support to help teams operate more effectively, minimizing confusion and unnecessary complexity. With a focus on clarity and steady execution, Summit Agility offers reliable solutions when conventional approaches fall short.
-
-What We Do
+What We Do (Split into 2 Columns)
 
 Freelance Scrum Master
 
-Virtual Admin
+Administrative support
 
-Agile Coaching
+Strategic planning
 
-Team Facilitation
+Grant writing
 
-Sprint Planning
+Board development
 
-Retrospective Design
+Volunteer coordination
 
-Digital Collaboration Support
+Community outreach
 
-Workflow Optimization
+Meeting facilitation
 
-Business Coaching
+Digital resource organization
 
-File Organization Support
+Microsoft Word, Excel, PowerPoint, and OneDrive systems
+
+SOP drafting
+
+Brand operations
+
+Resume formatting
+
+Project delivery
+
+Payment setup and verification
+
+Profile building and gig setup
+
+Service tier scoping
+
+Visual QA (basic layout checks)
+
+Troubleshooting push delays (GitHub/Azure)
+
+Asset control and naming consistency
+
+Folder and file organization
+
+Scheduling and calendar coordination
+
+Email outreach and client logistics
+
+Who We Are
+
+Logo Path: C:\\Users\\mdana\\OneDrive\\Documents\\Desktop\\Summit Agility Page\\SA_assets\\SAlogo.png
+
+Vision Statement At Summit Agility, we envision a world where every individual and organization can thrive through the power of clear communication, collaborative spirit, and adaptive strategies. We aim to be the guiding force that empowers teams to reach their highest potential, fostering a community where growth, innovation, and human connection flourish.
+
+Mission Statement Our mission at Summit Agility is to provide exceptional support and tailored solutions that enable individuals and organizations to navigate the complexities of change with confidence and clarity. We are dedicated to cultivating environments of trust and open dialogue, where every voice is heard, and every idea has the opportunity to shine. With a commitment to excellence and a human-first approach, we strive to empower our clients to achieve their goals and build a better future, one collaborative step at a time.
+
+Want More Information
+
+MS Form embed: <iframe width="640px" height="480px" src="https://forms.office.com/r/Lz3TP0R37S" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 
 Why Choose Us
 
-Summit Agility isn’t just another service provider—it’s a partner built for people who are tired of wasting time and energy on things that don’t work. We don’t sell buzzwords or play consultant. We step in when duct tape fails and nobody else knows what to do.
+Inclusive Leadership Badge: C:\\Users\\mdana\\OneDrive\\Documents\\Desktop\\Summit Agility Page\\SA_assets\\InclusiveLeadershipUoP.png
 
-We’ve lived the chaos and confusion of broken systems, and we know how to fix them—quietly, clearly, and without drama. Our support is practical, grounded, and receipt-driven.
+Badge 7227: C:\\Users\\mdana\\OneDrive\\Documents\\Desktop\\Summit Agility Page\\SA_assets\\badge-7227.png
 
-If you want someone who shows up, listens well, and gets things done without ego or noise, Summit Agility is the right fit.
+Badge 50203: C:\\Users\\mdana\\OneDrive\\Documents\\Desktop\\Summit Agility Page\\SA_assets\\badge-50203.png
+
+Agile Coaching Badge: C:\\Users\\mdana\\OneDrive\\Documents\\Desktop\\Summit Agility Page\\SA_assets\\Agile Coaching Badge.png
 
 Coming Soon
 
-Resume Shredder
+Cover Design: C:\\Users\\mdana\\OneDrive\\Documents\\Desktop\\Summit Agility Page\\SA_assets\\cover desig.png
 
-Contact Us
+Link to Privacy Policy
 
-Please fill out the form below to get in touch.
+Social Media Icons Path: C:\\Users\\mdana\\OneDrive\\Documents\\Desktop\\Summit Agility Page\\SA_assets\\Social Media Icons
 
-Name:
+Brand Colors
 
-Email:
+Purple: wisdom, creativity, royalty, power, ambition, and luxury. It can also represent magic, extravagance, peace, pride, independence, and wealth.
 
-Phone (optional):
+Blue:
 
-Preferred Contact Method:
+Light Blue: Represents health, healing, tranquility, understanding, and softness.
 
-Brief Description of Your Needs:
+Dark Blue: Associated with knowledge, power, integrity, and professionalism.
 
-We'll follow up within 2 business days.
+Psychological Implications: Blue is often seen as a calming and trustworthy color, promoting feelings of peace and stability.
 
-Pricing
+Cultural Significance: In various cultures, blue is often associated with loyalty, responsibility, and trust.
 
-15-min Free Virtual Consultation
+Common Uses: Frequently used in branding and design to convey reliability and calmness. These meanings highlight the diverse interpretations and significance of the color blue across different contexts.
 
-Rates start at $50/hour.
+Dark Green: symbolizes transition, ambition, wealth, calmness, freshness, jealousy, and materialism.
 
-Credentials & Certifications
+Charcoal Black: Stability, reliability, and sophistication
 
-![Certified ScrumMaster®](badge-7227.png)
-Certified ScrumMaster®—recognizes proficiency in facilitating agile practices, managing sprint cycles, and driving continuous improvement within teams.
+Error Red:
 
-![Agile Coaching Skills](Agile Coaching Badge.png)
-Agile Coaching certification—demonstrates advanced capability in leading organizations through agile transformation and cultivating high-performing, collaborative teams.
+Gold: compassion, generosity, optimism, confidence, prestige, success, wealth, prosperity
 
-![AI for Scrum Masters](badge-50203.png)
-AI for Scrum Masters—certifies foundational expertise in cloud technologies and readiness to implement AI-driven solutions in agile environments.
-
-<!-- Add more badges as needed -->
-
-Internal Notes
-
-Words that are banned from use: tactical, logic, layered, asset, proof, modular, architecture, compliance-driven logic
-
-Scrum Master Virtual Admin Remote Agile Support Project Management Team Facilitation Sprint Planning Retrospectives Agile Coaching Digital Collaboration Workflow Optimization+
-
-🔭 What a Vision Statement Should Do
-
-Declare the future you’re building toward — not just what you do now.
-
-Signal values without listing them — clarity, speed, trust, etc.
-
-Stay short and readable — no corporate poetry or jargon salad.
-
-How to write a Mission Statement:
-
-What you do (generalized)
-
-Who is your customer
-
-Strong adverbs that suggest how you are going to do it
-
-What is the WHY? What is my motivation to start this company besides money
-
-You started this company because you were tired of watching smart, capable people get buried under broken systems. You’ve seen founders burn out trying to juggle admin chaos, team misalignment, and vague workflows that promise agility but deliver confusion. You’ve lived the gap between what people say they support and what actually gets done.
-
-You didn’t build Summit Agility to chase titles or play consultant. You built it because you know how to fix things—quietly, clearly, and without drama. You’ve got the receipts, the experience, and the grit to step in when duct tape fails and nobody else knows what to do.
-
-This isn’t about buzzwords or branding. It’s about giving people a way out of the mess. You’re here to help them move faster, work smarter, and stop wasting time on things that don’t work.
-
-That’s the why. You built Summit Agility because you couldn’t not build it.
-
-PO Backlog Items (Current Sprint)
-
-Website Launch
-
-Azure Launch
-
-Social Media Project
-
-Sub-Projects
-
-Website Project: content, layout, contact form, pricing, etc.
-
-Azure Launch: domain setup, DNS configuration, App Service deployment, verification steps
-
-Social Media Project: platform selection, branding consistency, first post drafts, site-specific planning
+Orange: prestige, success, wealth, prosperity,

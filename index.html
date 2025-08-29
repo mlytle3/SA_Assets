@@ -1,142 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Summit Agility LLC</title>
-    <meta name="description" content="Summit Agility LLC helps teams and founders escape broken systems, find clarity, and build something better. Agile coaching, team facilitation, and practical support for real results.">
-    <meta name="keywords" content="Agile, Scrum Master, Coaching, Team Facilitation, Workflow Optimization, Summit Agility, Business Support, Resume Shredder">
-    <meta name="author" content="Summit Agility LLC">
-    <meta property="og:title" content="Summit Agility LLC - We Don't Just Sprint, We Climb!">
-    <meta property="og:description" content="Agile coaching, team facilitation, and practical support for founders and teams who want clarity, not chaos.">
-    <meta property="og:image" content="https://summitagility.com/BannerSA.png">
-    <meta property="og:url" content="https://summitagility.com">
-    <meta name="twitter:card" content="summary_large_image">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/jpeg" href="copilot_image_1749000152620.jpeg">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Summit Agility</title>
+  <link rel="icon" type="image/jpeg" href="copilot_image_1748998655806.jpeg" />
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Summit Agility provides freelance Scrum Master services, strategic planning, grant writing, and more to help organizations thrive through clear communication and adaptive strategies.">
+  <meta name="keywords" content="Summit Agility, Scrum Master, strategic planning, grant writing, board development, volunteer coordination, project delivery, resume formatting, agile coaching">
+  <meta name="author" content="Summit Agility LLC">
+
+  <!-- Open Graph Meta Tags for social sharing -->
+  <meta property="og:title" content="Summit Agility">
+  <meta property="og:description" content="Empowering teams and organizations to reach their highest potential through collaborative spirit and adaptive strategies.">
+  <meta property="og:image" content="BannerSA.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourdomain.com/">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Summit Agility">
+  <meta name="twitter:description" content="Empowering teams and organizations to reach their highest potential through collaborative spirit and adaptive strategies.">
+  <meta name="twitter:image" content="BannerSA.png">
+  <style>
+ 
+@font-face {
+  font-family: 'LeagueGothic-Regular';
+  src: url('fonts/LeagueGothic/static/LeagueGothic-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'LeagueGothic-Regular', 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+@font-face {
+  font-family: 'LeagueGothic_SemiCondensed-Regular';
+  src: url('fonts/League_Gothic/static/LeagueGothic_SemiCondensed-Regular.ttf') format('truetype');
+  font-weight: SemiCondense;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeagueGothic_Condensed-Regular';
+  src: url('fonts/League_Gothic/static/LeagueGothic_Condensed-Regular.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeagueGothic-Regular-VariableFont_wdth';
+  src: url('fonts/LeagueGothic/LeagueGothic-Regular-VariableFont_wdth.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Molle-Italic', cursive, 'Lucida Handwriting';
+  src: url('fonts/Molle/Molle-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: normal;
+}
+body 
+{
+  font-family: 'Molle-Italic', cursive, 'Lucida Handwriting';
+}
+
+footer p {
+  font-family: 'Molle-Italic', cursive, 'Lucida Handwriting';
+  font-size: 1.2rem;
+}
+
+:root {
+  --purple: #6a1b9a;
+  --light-blue: #f0f8ff;
+  --dark-blue: #2c3e50;
+  --dark-green: #006400;
+  --charcoal: #333333;
+  --gold: #e1ad02;
+  --orange: #f57c00;
+}
+
+body {
+  margin: 0;
+  font-family: 'LeagueGothic-Regular', Arial, sans-serif;
+  background-color: #e1ad02;
+  color: var(--charcoal);
+}
+
+header img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1, h2 {
+  font-family: 'Molle-Italic', cursive, 'Lucida Handwriting';
+  color: var(--dark-blue);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  border-bottom: 2px solid var(--purple);
+  padding-bottom: 0.5rem;
+}
+
+main {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.column {
+  flex: 1;
+  min-width: 250px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li::before {
+  content: "• ";
+  color: var(--dark-green);
+}
+
+.logo {
+  display: block;
+  margin: 2rem auto;
+  max-width: 150px;
+  height: auto;
+}
+
+iframe {
+  width: 100%;
+  height: 480px;
+  border: none;
+  background-color: var(--light-blue);
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.badges img {
+  max-height: 100px;
+  height: auto;
+}
+
+footer {
+  background-color: var(--charcoal);
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  font-family: 'Molle-Italic', cursive, 'Lucida Handwriting';
+  font-size: 1.2rem;
+}
+    body {
+      margin: 0;
+      font-family:'LeagueGothic-Regular', 'Franklin Gothic Medium', Arial, sans-serif;
+      background-color: #fbca9a;
+      color: #333;
+    }
+
+    header img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .columns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .column {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li::before {
+      content: "• ";
+      color: #2c3e50;
+    }
+
+    .logo {
+      display: block;
+      margin: 2rem auto;
+      max-width: 150px;
+      height: auto;
+    }
+
+    iframe {
+      width: 100%;
+      height: 480px;
+      border: none;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+
+    .badges img {
+      max-height: 100px;
+      height: auto;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 3rem;
+    }
+  </style>
 </head>
 <body>
-    <div class="site-banner">
-        <img src="BannerSA.png" alt="Summit Agility Banner" class="banner-img" />
+
+  <header>
+    <img src="BannerSA.png" alt="Summit Agility Banner" />
+  </header>
+
+  <main>
+    <h1>Summit Agility</h1>
+
+    <h2>What We Do</h2>
+    <div class="columns">
+      <div class="column">
+        <ul>
+          <li>Freelance Scrum Master</li>
+          <li>Administrative support</li>
+          <li>Strategic planning</li>
+          <li>Grant writing</li>
+          <li>Board development</li>
+          <li>Volunteer coordination</li>
+          <li>Community outreach</li>
+          <li>Meeting facilitation</li>
+          <li>Digital resource organization</li>
+          <li>Microsoft Word, Excel, PowerPoint, and OneDrive systems</li>
+          <li>SOP drafting</li>
+          <li>Brand operations</li>
+        </ul>
+      </div>
+      <div class="column">
+        <ul>
+          
+          <li>Resume formatting</li>
+          <li>Project delivery</li>
+          <li>Payment setup and verification</li>
+          <li>Profile building and gig setup</li>
+          <li>Service tier scoping</li>
+          <li>Visual QA (basic layout checks)</li>
+          <li>Troubleshooting push delays (GitHub/Azure)</li>
+          <li>Asset control and naming consistency</li>
+          <li>Folder and file organization</li>
+          <li>Scheduling and calendar coordination</li>
+          <li>Email outreach and client logistics</li>
+        </ul>
+      </div>
     </div>
-    <header class="site-header">
-        <img src="copilot_image_1748998655806.jpeg" alt="Summit Agility Logo" class="logo" />
-        <h1>Welcome to the official Grand Opening of Summit Agility LLC</h1>
-                    <h1 class="brand-heading">
-                        <span class="summit">Summit</span>
-                        <span class="agility">Agility</span>
-                        <span class="llc">LLC</span>
-                    </h1>
-    <main>
-        <section class="grand-opening">
-                <div class="statement-box grand-opening-box">
-                    <h2>Grand Opening Statement</h2>
-                        <p>Summit Agility was founded by experienced professionals who escaped broken systems to build something better. We offer practical services—like agile coaching, team facilitation, and workflow optimization—to help teams achieve clarity and real results. Our commitment to people over buzzwords ensures that you are valued and understood, and we deliver support with authenticity, empathy, and proven expertise.</p>
-                </div>
-        </section>
 
-        <section class="who-we-are">
-                <h2>Who We Are</h2>
-                <div class="statement-box vision-box">
-                    <h3>Vision Statement</h3>
-                    <p>Summit Agility works hard to match your broader goals—communication, clarity, connection, and real support for those building better—or just looking for a clear voice and a cup of coffee.</p>
-                </div>
-                <div class="statement-box mission-box">
-                    <h3>Mission Statement</h3>
-                    <p>Summit Agility was founded to address the challenges faced by capable professionals working within inefficient systems. The company provides practical support to help teams operate more effectively, minimizing confusion and unnecessary complexity. With a focus on clarity and steady execution, Summit Agility offers reliable solutions when conventional approaches fall short.</p>
-                </div>
-        </section>
+    <h2>Who We Are</h2>
+    <img src="SAlogo.png" alt="Summit Agility logo featuring a stylized mountain peak with bold modern lettering Summit Agility below the graphic set against a clean white background conveying a sense of professionalism and upward growth" class="logo" />
+    <p><strong>Vision Statement:</strong> At Summit Agility, we envision a world where every individual and organization can thrive through the power of clear communication, collaborative spirit, and adaptive strategies. We aim to be the guiding force that empowers teams to reach their highest potential, fostering a community where growth, innovation, and human connection flourish.</p>
+    <p><strong>Mission Statement:</strong> Our mission at Summit Agility is to provide exceptional support and tailored solutions that enable individuals and organizations to navigate the complexities of change with confidence and clarity. We are dedicated to cultivating environments of trust and open dialogue, where every voice is heard, and every idea has the opportunity to shine. With a commitment to excellence and a human-first approach, we strive to empower our clients to achieve their goals and build a better future, one collaborative step at a time.</p>
 
-        <section class="what-we-do">
-            <h2>What We Do</h2>
-            <ul>
-                <li>Freelance Scrum Master</li>
-                <li>Virtual Admin</li>
-                <li>Agile Coaching</li>
-                <li>Team Facilitation</li>
-                <li>Sprint Planning</li>
-                <li>Retrospective Design</li>
-                <li>Digital Collaboration Support</li>
-                <li>Workflow Optimization</li>
-                <li>Business Coaching</li>
-                <li>File Organization Support</li>
-                <li>Meeting Management</li>
-                <li>Change Management</li>
-            </ul>
-        </section>
+    <h2>Want More Information</h2>
+    <iframe src="https://forms.office.com/r/Lz3TP0R37S" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen></iframe>
 
-        <section class="why-choose-us">
-            <h2>Why Choose Us</h2>
-            <p>Summit Agility isn’t just another service provider—it’s a partner built for people who are tired of wasting time and energy on things that don’t work. We don’t sell buzzwords or play consultant. We step in when duct tape fails and nobody else knows what to do.</p>
-            <p>We’ve lived the chaos and confusion of broken systems, and we know how to fix them—quietly, clearly, and without drama. Our support is practical, grounded, and receipt-driven.</p>
-            <p>If you want someone who shows up, listens well, and gets things done without ego or noise, Summit Agility is the right fit.</p>
-        </section>
-
-        <section class="coming-soon">
-            <h2>Coming Soon</h2>
-            <h3>Resume Shredder</h3>
-            <img src="cover desig.png" alt="Resume Shredder Cover" class="cover-image" />
-        </section>
-
-        <section class="contact-us">
-            <h2>Contact Us</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br>
-                <label for="phone">Phone (optional):</label>
-                <input type="tel" id="phone" name="phone"><br>
-                <label for="contact-method">Preferred Contact Method:</label>
-                <input type="text" id="contact-method" name="contact-method"><br>
-                <label for="description">Brief Description of Your Needs:</label>
-                <textarea id="description" name="description" rows="3"></textarea><br>
-                <button type="submit">Submit</button>
-            </form>
-            <p>We'll follow up within 2 business days.</p>
-        </section>
-
-        <section class="pricing">
-            <h2>Pricing</h2>
-            <ul>
-                <li>15-min Free Virtual Consultation</li>
-                <li>Rates start at $50/hour.</li>
-            </ul>
-        </section>
-
-        <section class="credentials">
-            <h2>Credentials & Certifications</h2>
-            <div class="badges">
-                <div class="badge">
-                    <img src="badge-7227.png" alt="Certified ScrumMaster®" />
-                    <p>Certified ScrumMaster®—recognizes proficiency in facilitating agile practices, managing sprint cycles, and driving continuous improvement within teams.</p>
-                </div>
-                <div class="badge">
-                    <img src="Agile Coaching Badge.png" alt="Agile Coaching Skills" />
-                    <p>Agile Coaching certification—demonstrates advanced capability in leading organizations through agile transformation and cultivating high-performing, collaborative teams.</p>
-                </div>
-                <div class="badge">
-                    <img src="badge-50203.png" alt="AI for Scrum Masters" />
-                    <p>AI for Scrum Masters—certifies foundational expertise in cloud technologies and readiness to implement AI-driven solutions in agile environments.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="site-footer">
-        <p>&copy; 2025 Summit Agility LLC. All rights reserved.</p>
-        <p><a href="https://summitagility.com" target="_blank" rel="noopener">Visit Summit Agility Website</a></p>
-<footer class="site-footer">
-    <div class="social-icons">
-        <a href="#" title="LinkedIn"><img src="linkedin-new.svg" alt="LinkedIn" /></a>
-        <a href="#" title="Facebook"><img src="facebook-new.svg" alt="Facebook" /></a>
-        <a href="#" title="Instagram"><img src="instagram-new.svg" alt="Instagram" /></a>
-        <a href="#" title="Google"><img src="google-new.svg" alt="Google" /></a>
-        <a href="#" title="Pinterest"><img src="Social Media Icons\pinterest_icon.png" alt="Pinterest" /></a>
-        <a href="#" title="WhatsApp">
-        <img src="Social Media Icons\whatsapp_icon.png" alt="WhatsApp logo featuring a white phone handset inside a green circle, symbolizing messaging and communication, set against a plain background, friendly and inviting tone, no visible text" />
-        </a>
-        <a href="#" title="Outlook"><img src="Social Media Icons\outlook_icon.png" alt="Outlook" /></a>
+    <h2>Why Choose Us</h2>
+    <div class="badges">
+      <img src="InclusiveLeadershipUoP.png" alt="Inclusive Leadership Badge" />
+      <img src="badge-7227.png" alt="Badge 7227" />
+      <img src="badge-50203.png" alt="Badge 50203" />
+      <img src="Agile Coaching Badge.png" alt="Agile Coaching Badge" />
     </div>
-    <p>&copy; 2025 Summit Agility LLC. All rights reserved.</p>
-</footer>
+
+    <h2>Coming Soon</h2>
+    <H1>Resume Shredder</H1>
+    <img src="furious_shredder.png" alt="Cartoon paper shredder with an angry face is actively shredding a stack of documents, with strips of shredded paper spilling out onto the floor. The shredder has exaggerated frustrated features and is set against a simple dark background. The emotional tone is humorous and intense. No visible text appears in the image." style="max-width: 50%; height:auto; display:block; margin-left:auto; margin-right:auto;" />
+
+    <p><a href="privacy-policy.md">Privacy Policy</a></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Summit Agility LLC</p>
+  </footer>
+
+</body>
+</html>
