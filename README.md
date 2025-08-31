@@ -60,9 +60,9 @@ Who We Are
 
 Logo Path: C:\\Users\\mdana\\OneDrive\\Documents\\Desktop\\Summit Agility Page\\SA_assets\\SAlogo.png
 
-Vision Statement At Summit Agility, we envision a world where every individual and organization can thrive through the power of clear communication, collaborative spirit, and adaptive strategies. We aim to be the guiding force that empowers teams to reach their highest potential, fostering a community where growth, innovation, and human connection flourish.
+Vision Statement: At Summit Agility, we envision a world where every individual and organization can thrive through the power of clear communication, collaborative spirit, and adaptive strategies. We aim to be the guiding force that empowers teams to reach their highest potential, fostering a community where growth, innovation, and human connection flourish.
 
-Mission Statement Our mission at Summit Agility is to provide exceptional support and tailored solutions that enable individuals and organizations to navigate the complexities of change with confidence and clarity. We are dedicated to cultivating environments of trust and open dialogue, where every voice is heard, and every idea has the opportunity to shine. With a commitment to excellence and a human-first approach, we strive to empower our clients to achieve their goals and build a better future, one collaborative step at a time.
+Mission Statement: Our mission at Summit Agility is to provide exceptional support and tailored solutions that enable individuals and organizations to navigate the complexities of change with confidence and clarity. We are dedicated to cultivating environments of trust and open dialogue, where every voice is heard, and every idea has the opportunity to shine. With a commitment to excellence and a human-first approach, we strive to empower our clients to achieve their goals and build a better future, one collaborative step at a time.
 
 Want More Information
 
@@ -111,3 +111,5 @@ Error Red:
 Gold: compassion, generosity, optimism, confidence, prestige, success, wealth, prosperity
 
 Orange: prestige, success, wealth, prosperity,
+
+Live on gitpages
