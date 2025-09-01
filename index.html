@@ -22,54 +22,76 @@
   <meta name="twitter:title" content="Summit Agility">
   <meta name="twitter:description" content="Empowering teams and organizations to reach their highest potential through collaborative spirit and adaptive strategies.">
   <meta name="twitter:image" content="BannerSA.png">
+</head>
   <style>
  
+/* League Gothic - Regular */
 @font-face {
   font-family: 'LeagueGothic-Regular';
-  src: url('League_Gothic/static/LeagueGothic-Regular.ttf') format('truetype');
+  src: url('/fonts/League_Gothic/static/LeagueGothic-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
-body {
-  font-family: 'LeagueGothic-Regular', 'Franklin Gothic Medium', Arial, sans-serif;
-}
-
+/* League Gothic - Semi Condensed */
 @font-face {
-  font-family: 'LeagueGothic_SemiCondensed-Regular';
-  src: url('League_Gothic/static/LeagueGothic_SemiCondensed-Regular.ttf') format('truetype');
-  font-weight: SemiCondense;
+  font-family: 'LeagueGothic-SemiCondensed';
+  src: url('/fonts/LeagueGothic/static/LeagueGothic_SemiCondensed-Regular.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
 }
 
+/* League Gothic - Condensed */
 @font-face {
-  font-family: 'LeagueGothic_Condensed-Regular';
-  src: url('League_Gothic/static/LeagueGothic_Condensed-Regular.ttf') format('truetype');
+  font-family: 'LeagueGothic-Condensed';
+  src: url('/fonts/League_Gothic/static/LeagueGothic_Condensed-Regular.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
+/* League Gothic - Variable Width */
 @font-face {
-  font-family: 'LeagueGothic-Regular-VariableFont_wdth';
-  src: url('LeagueGothic/LeagueGothic-Regular-VariableFont_wdth.ttf') format('truetype');
+  font-family: 'LeagueGothic-Variable';
+  src: url('/fonts/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
+/* Molle Italic */
 @font-face {
-  font-family: 'Molle-Italic', cursive, 'Lucida Handwriting';
-  src: url('Molle/Molle-Italic.ttf') format('truetype');
+  font-family: 'Molle-Italic';
+  src: url('/fonts/Molle/Molle-Italic.ttf') format('truetype');
   font-style: italic;
   font-weight: normal;
 }
-body 
-{
-  font-family: 'Molle-Italic', cursive, 'Lucida Handwriting';
+
+/* Lucida Handwriting (system font fallback) */
+/* Removed invalid @font-face for LucidaHandwriting (system font fallback handled in font-family stack) */
+
+/* Default body font stack */
+body {
+  font-family: 'Molle-Italic', 'LucidaHandwriting', 'Segoe UI', Verdana, Arial, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
 
+/* Footer text styling */
 footer p {
-  font-family: 'Molle-Italic', cursive, 'Lucida Handwriting';
+  font-family: 'Molle-Italic', 'LucidaHandwriting', 'Segoe UI', Verdana, Arial, sans-serif;
   font-size: 1.2rem;
+}
+
+@keyframes shake {
+  0% { transform: translate(0px, 0px) rotate(0deg);}
+  20% { transform: translate(-5px, 0px) rotate(-2deg);}
+  40% { transform: translate(5px, 0px) rotate(2deg);}
+  60% { transform: translate(-5px, 0px) rotate(-2deg);}
+  80% { transform: translate(5px, 0px) rotate(2deg);}
+  100% { transform: translate(0px, 0px) rotate(0deg);}
+}
+
+.shake {
+  animation: shake 0.6s infinite;
 }
 
 :root {
@@ -85,13 +107,13 @@ footer p {
 body {
   margin: 0;
   font-family: 'LeagueGothic-Regular', Arial, sans-serif;
-  background: linear-gradient(to right, #f9aa02, #f5cd79);
+  background: linear-gradient(to right, #f1e0bb, #f5cd79);
   color: var(--charcoal);
 }
 
 header img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 }
 
@@ -171,7 +193,7 @@ footer {
 }
     body {
       margin: 0;
-      font-family:'LeagueGothic-Regular', 'Franklin Gothic Medium', Arial, sans-serif;
+      font-family:'LeagueGothic-Regular', 'Segoe UI', Verdana, Arial, sans-serif;
       background-color: #fbca9a;
       color: #333;
     }
@@ -312,13 +334,15 @@ footer {
 
     <h2>Coming Soon</h2>
     <H1>Resume Shredder</H1>
-    <img src="furious_shredder.png" alt="Cartoon paper shredder with an angry face is actively shredding a stack of documents, with strips of shredded paper spilling out onto the floor. The shredder has exaggerated frustrated features and is set against a simple dark background. The emotional tone is humorous and intense. No visible text appears in the image." style="max-width: 50%; height:auto; display:block; margin-left:auto; margin-right:auto;" />
+    <img src="furious_shredder.png" alt="Cartoon paper shredder with an angry face is actively shredding a stack of documents, with strips of shredded paper spilling out onto the floor. The shredder has exaggerated frustrated features and is set against a simple dark background. The emotional tone is humorous and intense. No visible text appears in the image." style="max-width: 50%; height:auto; display:block; margin-left:auto; margin-right:auto;" class="shake" />
 
-    <p><a href="privacy-policy.html">Privacy Policy</a></p>
+
+    
   </main>
 
   <footer>
-    <p>&copy; 2025 Summit Agility LLC</p>
+  <p><a href="Privacy Policy.html">Privacy Policy</a></p> 
+  <p>&copy; 2025 Summit Agility LLC</p>
   </footer>
 
 </body>
