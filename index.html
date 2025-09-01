@@ -22,53 +22,12 @@
   <meta name="twitter:title" content="Summit Agility">
   <meta name="twitter:description" content="Empowering teams and organizations to reach their highest potential through collaborative spirit and adaptive strategies.">
   <meta name="twitter:image" content="BannerSA.png">
+  <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Molle:ital@1&display=swap" rel="stylesheet">
+
+
 </head>
   <style>
- 
-/* League Gothic - Regular */
-@font-face {
-  font-family: 'LeagueGothic-Regular';
-  src: url('/fonts/League_Gothic/static/LeagueGothic-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 
-/* League Gothic - Semi Condensed */
-@font-face {
-  font-family: 'LeagueGothic-SemiCondensed';
-  src: url('/fonts/LeagueGothic/static/LeagueGothic_SemiCondensed-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* League Gothic - Condensed */
-@font-face {
-  font-family: 'LeagueGothic-Condensed';
-  src: url('/fonts/League_Gothic/static/LeagueGothic_Condensed-Regular.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-/* League Gothic - Variable Width */
-@font-face {
-  font-family: 'LeagueGothic-Variable';
-  src: url('/fonts/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-
-/* Molle Italic */
-@font-face {
-  font-family: 'Molle-Italic';
-  src: url('/fonts/Molle/Molle-Italic.ttf') format('truetype');
-  font-style: italic;
-  font-weight: normal;
-}
-
-/* Lucida Handwriting (system font fallback) */
-/* Removed invalid @font-face for LucidaHandwriting (system font fallback handled in font-family stack) */
-
-/* Default body font stack */
 body {
   font-family: 'Molle-Italic', 'LucidaHandwriting', 'Segoe UI', Verdana, Arial, sans-serif;
   font-size: 1.1rem;
@@ -103,10 +62,11 @@ footer p {
   --gold: #e1ad02;
   --orange: #f57c00;
 }
-
 body {
+  font-family: 'League Gothic', 'Segoe UI', Verdana, Arial, sans-serif;
+  font-size: 1.333rem; /* ~21.3px = 16pt */
+  line-height: 1.5;
   margin: 0;
-  font-family: 'LeagueGothic-Regular', Arial, sans-serif;
   background: linear-gradient(to right, #f1e0bb, #f5cd79);
   color: var(--charcoal);
 }
@@ -118,7 +78,7 @@ header img {
 }
 
 h1, h2 {
-  font-family: 'Molle-Italic', cursive, 'Lucida Handwriting';
+  font-family: 'Molle', 'Lucida Handwriting', cursive, 'Segoe UI', Verdana, Arial, sans-serif;
   color: var(--dark-blue);
   text-align: center;
   margin-bottom: 1rem;
@@ -191,12 +151,15 @@ footer {
   font-family: 'Molle-Italic', cursive, 'Lucida Handwriting';
   font-size: 1.2rem;
 }
-    body {
-      margin: 0;
-      font-family:'LeagueGothic-Regular', 'Segoe UI', Verdana, Arial, sans-serif;
-      background-color: #fbca9a;
-      color: #333;
-    }
+body {
+  font-family: 'League Gothic', 'Segoe UI', Verdana, Arial, sans-serif;
+  font-size: 1.333rem; /* ~21.3px = 16pt */
+  line-height: 1.5;
+  margin: 0;
+  color: var(--charcoal);
+  background-color: #fbca9a;
+  color: #333;
+}
 
     header img {
       width: 100%;
