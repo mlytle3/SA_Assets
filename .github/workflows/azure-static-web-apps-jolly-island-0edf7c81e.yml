@@ -44,17 +44,4 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_JOLLY_ISLAND_0EDF7C81E }}
           action: "close"
-- name: Trello Card & GitHub PR Integration
-  uses: rematocorp/trello-integration-action@v9.11.1
-  - name: Trello cards action
-  uses: Yleisradio/github-action-trello-integration@v1.1.1
-  - name: Trello Manage
-  uses: sisodiya2421/trello-manage@v2
-  - name: Action Trello Connector
-  uses: shirobrak/action-trello-connector@v1.2.0
-  - name: Attach to Trello Card
-  uses: delivered/attach-to-trello-card-action@v2.0.1
-  - name: Trello Link GitHub Action
-  uses: kagof/trello-link-github-action@v1.1.0
-  - name: Add To GitHub projects
-  uses: actions/add-to-project@v1.0.2
+
