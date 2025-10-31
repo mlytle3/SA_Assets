@@ -9,11 +9,7 @@
             "type": "chrome",
             "request": "launch",
             "file": "${workspaceFolder}/index.html",
-            "webRoot": "${workspaceFolder}",
-            "runtimeArgs": [
-                "--disable-web-security",
-                "--disable-features=VizDisplayCompositor"
-            ]
+            "webRoot": "${workspaceFolder}"
         },
         {
             "name": "Launch Live Server",
