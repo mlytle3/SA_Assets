@@ -92,7 +92,7 @@ header img {
 }
 
 h1, h2 {
-  font-family: 'Mollie', 'Lucida Handwriting', cursive, 'Segoe UI', Verdana, Arial, sans-serif;
+  font-family: 'Molle', 'Lucida Handwriting', cursive, 'Segoe UI', Verdana, Arial, sans-serif;
   color: var(--dark-blue);
   text-align: center;
   margin-bottom: 1rem;
@@ -206,6 +206,46 @@ footer a:hover {
     "slogan": "Protect the Brand. Prove the Work."
   }
   </script>
+
+  <!-- Error handling and console debugging -->
+  <script>
+    // Handle any runtime errors gracefully
+    window.addEventListener('error', function(e) {
+      console.warn('Page error handled:', e.message);
+      return true; // Prevent default browser error handling
+    });
+
+    // Handle unhandled promise rejections
+    window.addEventListener('unhandledrejection', function(e) {
+      console.warn('Promise rejection handled:', e.reason);
+      e.preventDefault(); // Prevent default browser error handling
+    });
+
+    // Log successful page load
+    window.addEventListener('DOMContentLoaded', function() {
+      console.log('Summit Agility page loaded successfully');
+      
+      // Validate critical resources
+      const criticalImages = ['SAlogo.png', 'BannerSA.png', 'furious_shredder.png'];
+      criticalImages.forEach(function(imgSrc) {
+        const img = new Image();
+        img.onload = function() { console.log('✓ Image loaded:', imgSrc); };
+        img.onerror = function() { console.warn('✗ Image failed:', imgSrc); };
+        img.src = imgSrc;
+      });
+      
+      // Check video availability
+      const video = document.querySelector('video');
+      if (video) {
+        video.addEventListener('loadeddata', function() {
+          console.log('✓ Video loaded successfully');
+        });
+        video.addEventListener('error', function() {
+          console.warn('✗ Video failed to load');
+        });
+      }
+    });
+  </script>
 </head>
 <body>
 
@@ -258,8 +298,11 @@ footer a:hover {
 
     <!-- Video Section -->
     <div class="video-container" style="text-align: center; margin: 40px auto; display: flex; justify-content: center;">
-      <video controls autoplay muted width="100%" style="max-width: 800px;" poster="BannerSA.png">
-        <source src="PortfolioVideo.mp4" type="video/mp4">
+      <video controls autoplay muted width="100%" style="max-width: 800px;" poster="BannerSA.png" 
+             onerror="console.warn('Video failed to load')" 
+             onloadstart="console.log('Video loading started')"
+             oncanplay="console.log('Video ready to play')">
+        <source src="PortfolioVideo.mp4" type="video/mp4" onerror="console.warn('Video source failed to load')">
         Your browser does not support the video tag. <a href="PortfolioVideo.mp4">Download video</a>
       </video>
     </div>
