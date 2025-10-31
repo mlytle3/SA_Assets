@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "ms-vscode.vscode-chrome-debug",
+        "ritwickdey.liveserver", 
+        "ms-vscode.vscode-html-languageservice",
+        "bradlc.vscode-tailwindcss"
+    ]
+}
