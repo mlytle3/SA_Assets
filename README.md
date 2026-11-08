@@ -1,113 +1,108 @@
-# SA_Assets
-Summit Agility Landing Page
-Summit Agility Landing Page Outline
+# Summit Agility Website
 
-Banner
+This repository contains the public homepage and brand assets for [Summit Agility](https://www.summit-agility.com/).
 
-Width: 100%
+## Website purpose
 
-Image Path: C:\\Users\\mdana\\OneDrive\\Documents\\Desktop\\Summit Agility Page\\SA_assets\\BannerSA.png
+Summit Agility helps owner-led small businesses build the systems, processes, and teams they need to grow beyond the owner.
 
-What We Do (Split into 2 Columns)
+The homepage focuses on:
 
-Freelance Scrum Master
+- Small business operations consulting
+- Growth and operations assessments
+- Standard operating procedures (SOPs)
+- Hiring and delegation systems
+- Business process improvement
+- Microsoft 365 business systems
+- Fractional operations advisory support
 
-Administrative support
+## Main files
 
-Strategic planning
+| File | Purpose |
+| --- | --- |
+| `index.html` | Main Summit Agility homepage |
+| `Summit Agility Color.css` | Official Summit Agility color variables and color classes |
+| `Summit Agility Fonts.css` | Official Summit Agility typography system |
+| `ProtectProve.jpg` | Homepage banner and social sharing image |
+| `SAlogo.png` | Summit Agility logo |
+| `SABWlogo.ico` | Browser favicon |
+| `BannerSA.png` | Video poster image |
+| `PortfolioVideo.mp4` | Summit Agility introduction video |
+| `vCard QR Code.png` | QR code for the Summit Agility contact card |
+| `Privacy Policy.html` | Website privacy policy |
 
-Grant writing
+The homepage also references credential badge images already stored in the repository.
 
-Board development
+## Brand system
 
-Volunteer coordination
+### Colors
 
-Community outreach
+The website loads colors from `Summit Agility Color.css`:
 
-Meeting facilitation
+- Primary charcoal: `#1A1A1A`
+- Secondary gray: `#444444`
+- Accent rust: `#C94F2D`
+- Body text: `#111111`
+- Background: `#FFFFFF`
 
-Digital resource organization
+### Fonts
 
-Microsoft Word, Excel, PowerPoint, and OneDrive systems
+The website loads typography from `Summit Agility Fonts.css`:
 
-SOP drafting
+- Molle for the Summit Agility title treatment
+- League Gothic for primary headings and subtitles
+- Tw Cen MT with web-safe fallbacks for body text
 
-Brand operations
+Google Fonts provides Molle and League Gothic in the website header. Tw Cen MT displays when available on the visitor's device and otherwise uses the fallbacks defined in the font stylesheet.
 
-Resume formatting
+## Updating the site with GitHub Desktop
 
-Project delivery
+1. Put the updated files inside the local `SA_Assets` repository folder.
+2. Open GitHub Desktop.
+3. Select the `SA_Assets` repository.
+4. Review the files listed under **Changes**.
+5. Confirm that the intended files are checked.
+6. Enter a commit summary, such as:
 
-Payment setup and verification
+   `Update homepage and add Summit Agility brand styles`
 
-Profile building and gig setup
+7. Select **Commit to main**.
+8. Select **Push origin**.
+9. Open the repository on GitHub.com and confirm that the files appear in the repository.
+10. Open the live Summit Agility website and refresh the page.
 
-Service tier scoping
+## Recommended first commit
 
-Visual QA (basic layout checks)
+The first homepage update should include these four files in one commit:
 
-Troubleshooting push delays (GitHub/Azure)
+- `index.html`
+- `README.md`
+- `Summit Agility Color.css`
+- `Summit Agility Fonts.css`
 
-Asset control and naming consistency
+Suggested commit message:
 
-Folder and file organization
+`Update homepage and add Summit Agility brand styles`
 
-Scheduling and calendar coordination
+## Important notes
 
-Email outreach and client logistics
+- File names are case-sensitive on GitHub Pages.
+- Do not rename image, video, CSS, or privacy-policy files unless the matching references in `index.html` are also updated.
+- Spaces in file names are supported, but keeping the names unchanged prevents broken links.
+- The Microsoft consultation form currently loaded by the homepage is `https://forms.office.com/r/Lz3TP0R37S`.
+- After pushing, use a hard refresh if the old page remains visible: `Ctrl + F5` on Windows.
 
-Who We Are
+## Local preview
 
-Logo Path: C:\\Users\\mdana\\OneDrive\\Documents\\Desktop\\Summit Agility Page\\SA_assets\\SAlogo.png
+To preview the website before committing:
 
-Vision Statement At Summit Agility, we envision a world where every individual and organization can thrive through the power of clear communication, collaborative spirit, and adaptive strategies. We aim to be the guiding force that empowers teams to reach their highest potential, fostering a community where growth, innovation, and human connection flourish.
+1. Open the local `SA_Assets` folder.
+2. Double-click `index.html`.
+3. Confirm that the page opens in a browser.
+4. Check the banner, logo, video, QR code, credential badges, consultation form, and Privacy Policy link.
 
-Mission Statement Our mission at Summit Agility is to provide exceptional support and tailored solutions that enable individuals and organizations to navigate the complexities of change with confidence and clarity. We are dedicated to cultivating environments of trust and open dialogue, where every voice is heard, and every idea has the opportunity to shine. With a commitment to excellence and a human-first approach, we strive to empower our clients to achieve their goals and build a better future, one collaborative step at a time.
+Some browser security settings may limit an embedded Microsoft Form during a local preview. The form should be checked again after the page is published.
 
-Want More Information
+## Ownership
 
-MS Form embed: <iframe width="640px" height="480px" src="https://forms.office.com/r/Lz3TP0R37S" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-
-Why Choose Us
-
-Inclusive Leadership Badge: C:\\Users\\mdana\\OneDrive\\Documents\\Desktop\\Summit Agility Page\\SA_assets\\InclusiveLeadershipUoP.png
-
-Badge 7227: C:\\Users\\mdana\\OneDrive\\Documents\\Desktop\\Summit Agility Page\\SA_assets\\badge-7227.png
-
-Badge 50203: C:\\Users\\mdana\\OneDrive\\Documents\\Desktop\\Summit Agility Page\\SA_assets\\badge-50203.png
-
-Agile Coaching Badge: C:\\Users\\mdana\\OneDrive\\Documents\\Desktop\\Summit Agility Page\\SA_assets\\Agile Coaching Badge.png
-
-Coming Soon
-
-Cover Design: C:\\Users\\mdana\\OneDrive\\Documents\\Desktop\\Summit Agility Page\\SA_assets\\cover desig.png
-
-Link to Privacy Policy
-
-Social Media Icons Path: C:\\Users\\mdana\\OneDrive\\Documents\\Desktop\\Summit Agility Page\\SA_assets\\Social Media Icons
-
-Brand Colors
-
-Purple: wisdom, creativity, royalty, power, ambition, and luxury. It can also represent magic, extravagance, peace, pride, independence, and wealth.
-
-Blue:
-
-Light Blue: Represents health, healing, tranquility, understanding, and softness.
-
-Dark Blue: Associated with knowledge, power, integrity, and professionalism.
-
-Psychological Implications: Blue is often seen as a calming and trustworthy color, promoting feelings of peace and stability.
-
-Cultural Significance: In various cultures, blue is often associated with loyalty, responsibility, and trust.
-
-Common Uses: Frequently used in branding and design to convey reliability and calmness. These meanings highlight the diverse interpretations and significance of the color blue across different contexts.
-
-Dark Green: symbolizes transition, ambition, wealth, calmness, freshness, jealousy, and materialism.
-
-Charcoal Black: Stability, reliability, and sophistication
-
-Error Red:
-
-Gold: compassion, generosity, optimism, confidence, prestige, success, wealth, prosperity
-
-Orange: prestige, success, wealth, prosperity,
+Copyright 2026 Summit Agility LLC. All rights reserved.

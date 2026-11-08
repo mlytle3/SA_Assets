@@ -1,332 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Summit Agility</title>
-  <link rel="icon" type="image/x-icon" href="SABWlogo.ico" />
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Summit Agility LLC: Freelance Scrum Master services, strategic planning, grant writing, board development, and administrative support. We help everyone thrive through clear communication, teamwork, and flexible strategies.">
-  <meta name="keywords" content="Summit Agility, Scrum Master, strategic planning, grant writing, board development, volunteer coordination, project delivery, resume formatting, agile coaching, administrative support, community outreach, meeting facilitation, digital resource organization">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Small Business Operations Consultant in Colorado | Summit Agility</title>
+  <meta name="description" content="Summit Agility helps owner-led small businesses build better processes, SOPs, teams, and systems so they can grow beyond the owner.">
   <meta name="author" content="Summit Agility LLC">
-
-  <!-- Open Graph Meta Tags for social sharing -->
-  <meta property="og:title" content="Summit Agility - Freelance Scrum Master & Strategic Planning Services">
-  <meta property="og:description" content="We help everyone thrive through clear communication, teamwork, and flexible strategies. Offering Scrum Master services, strategic planning, grant writing, and more.">
-  <meta property="og:image" content="ProtectProve.jpg">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.summit-agility.com/">
-
-  <!-- Twitter Card Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Summit Agility - Freelance Scrum Master & Strategic Planning Services">
-  <meta name="twitter:description" content="We help everyone thrive through clear communication, teamwork, and flexible strategies. Offering Scrum Master services, strategic planning, grant writing, and more.">
-  <meta name="twitter:image" content="ProtectProve.jpg">
-
-  <!-- Enhanced Open Graph Meta Tags -->
-  <meta property="og:site_name" content="Summit Agility">
-  <meta property="og:locale" content="en_US">
-
-  <!-- Security Meta Tags -->
-  <meta http-equiv="X-Content-Type-Options" content="nosniff">
-  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
-
-  <!-- SEO Enhancement -->
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://www.summit-agility.com/">
+  <link rel="icon" type="image/x-icon" href="SABWlogo.ico">
 
-  <!-- Mobile & App Experience -->
-  <meta name="theme-color" content="#2563eb">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="Summit Agility">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta property="og:title" content="Small Business Operations Consulting | Summit Agility">
+  <meta property="og:description" content="Build the systems, processes, and teams your business needs to grow without everything depending on you.">
+  <meta property="og:image" content="https://www.summit-agility.com/ProtectProve.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.summit-agility.com/">
+  <meta property="og:site_name" content="Summit Agility">
 
-  <!-- Font preconnect for better performance -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Small Business Operations Consulting | Summit Agility">
+  <meta name="twitter:description" content="Practical systems and operational support for owner-led businesses ready to grow.">
+  <meta name="twitter:image" content="https://www.summit-agility.com/ProtectProve.jpg">
+
+  <!-- Summit Agility brand styles -->
+  <link rel="stylesheet" href="Summit%20Agility%20Color.css">
+  <link rel="stylesheet" href="Summit%20Agility%20Fonts.css">
+
+  <!-- Web font sources for the brand type system -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Molle:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Molle:ital@0;1&display=swap" rel="stylesheet">
 
+  <!-- Page layout only. Brand colors and typography come from the two CSS files above. -->
   <style>
-body {
-  font-family: 'League Gothic', 'Segoe UI', Verdana, Arial, sans-serif;
-  font-size: 1.333rem; /* ~21.3px = 16pt */
-  line-height: 1.5;
-  margin: 0;
-  background: #fff;
-  color: var(--charcoal);
-}
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--color-bg); }
+    img, video { max-width: 100%; height: auto; }
+    a { color: var(--color-accent); }
+    p, li { line-height: 1.45; }
 
-/* Footer text styling */
-footer p {
-  font-family: 'Molle', cursive, 'Lucida Handwriting';
-  font-size: 1.2rem;
-}
+    .site-header img { display: block; width: 100%; }
+    .wrap { width: min(1100px, calc(100% - 2rem)); margin: 0 auto; }
+    .narrow { width: min(780px, calc(100% - 2rem)); margin: 0 auto; }
+    .section { padding: 4rem 0; }
+    .section-alt { background: #f6f6f6; }
+    .center { text-align: center; }
 
-@keyframes shake {
-  0% { transform: translate(0px, 0px) rotate(0deg);}
-  20% { transform: translate(-5px, 0px) rotate(-2deg);}
-  40% { transform: translate(5px, 0px) rotate(2deg);}
-  60% { transform: translate(-5px, 0px) rotate(-2deg);}
-  80% { transform: translate(5px, 0px) rotate(2deg);}
-  100% { transform: translate(0px, 0px) rotate(0deg);}
-}
+    .hero {
+      padding: 5rem 0;
+      text-align: center;
+      background: linear-gradient(135deg, #ffffff 0%, #f7f7f7 100%);
+    }
+    .hero .sa-h1 { max-width: 900px; margin-left: auto; margin-right: auto; }
+    .hero .sa-body { max-width: 760px; margin-left: auto; margin-right: auto; }
 
-.shake {
-  animation: shake 0.6s infinite;
-}
+    .button {
+      display: inline-block;
+      margin: .5rem;
+      padding: .85rem 1.25rem;
+      border: 2px solid var(--color-accent);
+      border-radius: 4px;
+      background: var(--color-accent);
+      color: #fff;
+      font-family: var(--font-body);
+      font-weight: 700;
+      line-height: 1.2;
+      text-decoration: none;
+    }
+    .button:hover, .button:focus { filter: brightness(.9); }
+    .button-outline { background: transparent; color: var(--color-accent); }
 
-:root {
-  --purple: #6a1b9a;
-  --light-blue: #f0f8ff;
-  --dark-blue: #2c3e50;
-  --dark-green: #006400;
-  --charcoal: #333333;
-  --gold: #e1ad02;
-  --orange: #f57c00;
-}
+    .grid { display: grid; gap: 1.5rem; }
+    .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .card {
+      padding: 1.5rem;
+      border: 1px solid #d7d7d7;
+      border-top: 5px solid var(--color-accent);
+      border-radius: 6px;
+      background: #fff;
+    }
+    .card .price { color: var(--color-accent); font-weight: 700; }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { position: relative; margin: .6rem 0; padding-left: 1.6rem; }
+    .checklist li::before { content: "✓"; position: absolute; left: 0; color: var(--color-accent); font-weight: 700; }
+    .callout { padding: 1rem 1.25rem; border-left: 5px solid var(--color-accent); background: #faf3f0; }
+    .logo { width: 160px; margin-bottom: 1rem; }
+    .qr { width: 190px; padding: .5rem; background: #fff; border: 1px solid #ddd; }
+    .consultation-frame { width: 100%; height: 580px; border: 0; background: #f6f6f6; }
+    .badges { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1rem; }
+    .badges img { max-height: 95px; width: auto; }
+    .site-footer { padding: 2rem 1rem; background: var(--color-primary); color: #fff; text-align: center; }
+    .site-footer a { color: #fff; }
 
-header img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-h1, h2 {
-  font-family: 'Molle', 'Lucida Handwriting', cursive, 'Segoe UI', Verdana, Arial, sans-serif;
-  color: var(--dark-blue);
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-h2 {
-  border-bottom: 2px solid var(--purple);
-  padding-bottom: 0.5rem;
-}
-
-main {
-  padding: 2rem;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.columns {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-
-.column {
-  flex: 1;
-  min-width: 250px;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-li::before {
-  content: "• ";
-  color: var(--dark-green);
-}
-
-.logo {
-  display: block;
-  margin: 2rem auto;
-  max-width: 150px;
-  height: auto;
-}
-
-iframe {
-  width: 100%;
-  height: 480px;
-  border: none;
-  background-color: var(--light-blue);
-}
-
-.badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
-.badges img {
-  max-height: 100px;
-  height: auto;
-}
-
-footer {
-  background-color: var(--charcoal);
-  color: #fff;
-  text-align: center;
-  padding: 1rem 0;
-  font-family: 'Molle', cursive, 'Lucida Handwriting';
-  font-size: 1.2rem;
-}
-
-footer a {
-  color: var(--gold);
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
+    @media (max-width: 800px) {
+      .grid-2, .grid-3 { grid-template-columns: 1fr; }
+      .section { padding: 3rem 0; }
+      .hero { padding: 4rem 0; }
+    }
   </style>
 
-  <!-- Structured Data for SEO -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "Summit Agility LLC",
-    "description": "Freelance Scrum Master services, strategic planning, grant writing, and administrative support. We help everyone thrive through clear communication, teamwork, and flexible strategies.",
     "url": "https://www.summit-agility.com/",
     "logo": "https://www.summit-agility.com/SAlogo.png",
     "image": "https://www.summit-agility.com/ProtectProve.jpg",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "addressCountry": "US"
-    },
+    "description": "Small business operations consulting for growing owner-led businesses.",
+    "areaServed": ["Delta, Colorado", "Western Colorado", "Colorado", "United States"],
     "serviceType": [
-      "Scrum Master Services",
-      "Strategic Planning",
-      "Grant Writing",
-      "Board Development",
-      "Volunteer Coordination",
-      "Administrative Support",
-      "Community Outreach",
-      "Meeting Facilitation",
-      "Project Delivery",
-      "Resume Formatting"
+      "Small Business Operations Consulting",
+      "Growth and Operations Assessment",
+      "SOP Development",
+      "Business Process Improvement",
+      "Hiring and Delegation Systems",
+      "Microsoft 365 Business Systems",
+      "Fractional Operations Advisory"
     ],
-    "slogan": "Protect the Brand. Prove the Work."
+    "slogan": "Helping small businesses scale beyond the owner."
   }
-  </script>
-
-  <!-- Error handling and console debugging -->
-  <script>
-    // Handle any runtime errors gracefully
-    window.addEventListener('error', function(e) {
-      console.warn('Page error handled:', e.message);
-      return true; // Prevent default browser error handling
-    });
-
-    // Handle unhandled promise rejections
-    window.addEventListener('unhandledrejection', function(e) {
-      console.warn('Promise rejection handled:', e.reason);
-      e.preventDefault(); // Prevent default browser error handling
-    });
-
-    // Log successful page load
-    window.addEventListener('DOMContentLoaded', function() {
-      console.log('Summit Agility page loaded successfully');
-      
-      // Validate critical resources
-      const criticalImages = ['SAlogo.png', 'BannerSA.png', 'furious_shredder.png'];
-      criticalImages.forEach(function(imgSrc) {
-        const img = new Image();
-        img.onload = function() { console.log('✓ Image loaded:', imgSrc); };
-        img.onerror = function() { console.warn('✗ Image failed:', imgSrc); };
-        img.src = imgSrc;
-      });
-      
-      // Check video availability
-      const video = document.querySelector('video');
-      if (video) {
-        video.addEventListener('loadeddata', function() {
-          console.log('✓ Video loaded successfully');
-        });
-        video.addEventListener('error', function() {
-          console.warn('✗ Video failed to load');
-        });
-      }
-    });
   </script>
 </head>
 <body>
-
-  <header>
-    <img src="ProtectProve.jpg" alt="Summit Agility banner features the phrase Protect the Brand Prove the Work in bold modern lettering above a mountain silhouette with a rainbow-colored sunset sky. The scene conveys inspiration and professionalism, with warm gradient colors fading behind the mountains." />
+  <header class="site-header">
+    <img src="ProtectProve.jpg" alt="Summit Agility mountain banner">
   </header>
 
   <main>
-    <h1>Summit Agility</h1>
-
-    <h2>What We Do</h2>
-    <div class="columns">
-      <div class="column">
-        <ul>
-          <li>Freelance Scrum Master</li>
-          <li>Administrative support</li>
-          <li>Strategic planning</li>
-          <li>Grant writing</li>
-          <li>Board development</li>
-          <li>Volunteer coordination</li>
-          <li>Community outreach</li>
-          <li>Meeting facilitation</li>
-          <li>Digital resource organization</li>
-          <li>Microsoft Word, Excel, PowerPoint, and OneDrive systems</li>
-          <li>SOP drafting</li>
-          <li>Brand operations</li>
-        </ul>
+    <section class="hero">
+      <div class="wrap">
+        <p class="sa-subtitle accent">Small Business Growth &amp; Operations Consulting</p>
+        <h1 class="sa-h1">Small Business Operations Consulting That Helps You Grow Beyond the Owner</h1>
+        <p class="sa-body">Summit Agility helps owner-led small businesses build the systems, processes, and teams they need to grow without everything continuing to depend on the owner.</p>
+        <p class="sa-body"><strong>Practical support for businesses ready to increase capacity, delegate confidently, and scale with control.</strong></p>
+        <a class="button" href="#consultation">Book a Free 30-Minute Growth Consultation</a>
+        <a class="button button-outline" href="#services">See How We Help</a>
       </div>
-      <div class="column">
-        <ul>
-          <li>Resume formatting</li>
-          <li>Project delivery</li>
-          <li>Payment setup and verification</li>
-          <li>Profile building and gig setup</li>
-          <li>Service tier scoping</li>
-          <li>Visual QA (basic layout checks)</li>
-          <li>Troubleshooting push delays (GitHub/Azure)</li>
-          <li>Asset control and naming consistency</li>
-          <li>Folder and file organization</li>
-          <li>Scheduling and calendar coordination</li>
-          <li>Email outreach and client logistics</li>
+    </section>
+
+    <section class="section">
+      <div class="narrow">
+        <h2 class="sa-h2 center">Your Business Has Grown. Have Your Systems?</h2>
+        <p class="sa-body">In the beginning, keeping everything in your head works. You know the customers, train new employees, answer the questions, manage the schedule, and fix the mistakes.</p>
+        <p class="sa-body">Then the business gets bigger, and you spend more time putting out fires than building the company.</p>
+        <ul class="checklist sa-body">
+          <li>Employees rely on you for routine answers and decisions.</li>
+          <li>Important processes are inconsistent or undocumented.</li>
+          <li>Training new people takes too much of your time.</li>
+          <li>Information is scattered across emails, folders, spreadsheets, and people's heads.</li>
+          <li>Delegating feels risky because you cannot easily confirm that nothing was missed.</li>
+          <li>You have opportunities to grow, but the operation is already stretched.</li>
         </ul>
+        <p class="sa-body callout"><strong>The problem is not that your business cannot grow. The way your business operates has not caught up with its growth.</strong></p>
       </div>
-    </div>
+    </section>
 
-    <h2>Who We Are</h2>
-    <img src="SAlogo.png" alt="Summit Agility logo featuring a stylized mountain peak with bold modern lettering Summit Agility below the graphic set against a clean white background conveying a sense of professionalism and upward growth" class="logo" />
-    <p><strong>Vision Statement:</strong> At Summit Agility, we believe everyone can thrive through clear communication, teamwork, and flexible strategies.</p>
-    <p><strong>Mission Statement:</strong> With a commitment to excellence and a human-first approach, we strive to empower our clients to achieve their goals and build a better future, one collaborative step at a time.</p>
+    <section class="section section-alt">
+      <div class="wrap">
+        <h2 class="sa-h2 center">Build a Business That Does Not Depend on You for Everything</h2>
+        <p class="sa-body center">We turn informal ways of working into practical systems your team can understand, use, and improve.</p>
+        <div class="grid grid-2">
+          <article class="card">
+            <h3 class="sa-h3">Operations &amp; Process Improvement</h3>
+            <p class="sa-body">Create consistent ways of working so your team does not reinvent the process every time.</p>
+            <ul class="sa-body"><li>Workflow documentation and optimization</li><li>Standard operating procedures and checklists</li><li>Customer-service and administrative processes</li><li>Templates, handoffs, and quality controls</li></ul>
+          </article>
+          <article class="card">
+            <h3 class="sa-h3">Hiring &amp; Delegation</h3>
+            <p class="sa-body">Build enough structure to hand off responsibilities without losing quality or control.</p>
+            <ul class="sa-body"><li>Roles, responsibilities, and job descriptions</li><li>Employee onboarding and training processes</li><li>Delegation systems</li><li>Performance expectations and accountability</li></ul>
+          </article>
+          <article class="card">
+            <h3 class="sa-h3">Management Systems</h3>
+            <p class="sa-body">Gain visibility into the business without micromanaging every task.</p>
+            <ul class="sa-body"><li>Team communication and meeting rhythms</li><li>Key performance indicators</li><li>Leadership routines and priority tracking</li><li>Project and growth-plan coordination</li></ul>
+          </article>
+          <article class="card">
+            <h3 class="sa-h3">Business Technology</h3>
+            <p class="sa-body">Organize the information and tools employees need to do their jobs effectively.</p>
+            <ul class="sa-body"><li>Microsoft 365, SharePoint, Teams, and Planner</li><li>File and information organization</li><li>Forms, approvals, and simple Power Automate workflows</li><li>Practical systems that support the business instead of complicating it</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-    <!-- Video Section -->
-    <div class="video-container" style="text-align: center; margin: 40px auto; display: flex; justify-content: center;">
-      <video controls autoplay muted width="100%" style="max-width: 800px;" poster="BannerSA.png" 
-             onerror="console.warn('Video failed to load')" 
-             onloadstart="console.log('Video loading started')"
-             oncanplay="console.log('Video ready to play')">
-        <source src="PortfolioVideo.mp4" type="video/mp4" onerror="console.warn('Video source failed to load')">
-        Your browser does not support the video tag. <a href="PortfolioVideo.mp4">Download video</a>
-      </video>
-    </div>
+    <section id="services" class="section">
+      <div class="wrap">
+        <h2 class="sa-h2 center">Choose the Support Your Business Needs</h2>
+        <p class="sa-body center">Start by identifying the right priorities, then build and implement the systems that support your next stage of growth.</p>
+        <div class="grid grid-3">
+          <article class="card">
+            <h3 class="sa-h3">Growth &amp; Operations Assessment</h3>
+            <p class="sa-body">Find the bottlenecks making growth harder and determine what to fix first.</p>
+            <ul class="sa-body"><li>Operations and workflow review</li><li>Owner and employee responsibility review</li><li>Hiring, training, and technology assessment</li><li>Prioritized 90-day Operations &amp; Growth Roadmap</li></ul>
+            <p class="sa-body price">Starting at $1,250</p>
+            <a class="button" href="#consultation">Start With an Assessment</a>
+          </article>
+          <article class="card">
+            <h3 class="sa-h3">Business Systems &amp; Playbook</h3>
+            <p class="sa-body">Get the business out of your head and turn it into a repeatable way of working.</p>
+            <ul class="sa-body"><li>SOPs, process maps, and checklists</li><li>Role definitions and job descriptions</li><li>Onboarding and training materials</li><li>Management routines and KPI tracking</li></ul>
+            <p class="sa-body price">Typical projects: $3,500 to $6,500</p>
+            <a class="button" href="#consultation">Build My Business Systems</a>
+          </article>
+          <article class="card">
+            <h3 class="sa-h3">Scale Beyond the Owner</h3>
+            <p class="sa-body">Build and implement the operating structure needed to increase capacity, add employees, or expand.</p>
+            <ul class="sa-body"><li>Operational redesign and capacity planning</li><li>Delegation and management structure</li><li>Hiring preparation and SOP implementation</li><li>Growth, expansion, and accountability systems</li></ul>
+            <p class="sa-body price">Typical projects: $7,500 to $15,000+</p>
+            <a class="button" href="#consultation">Talk About Scaling</a>
+          </article>
+        </div>
+      </div>
+    </section>
 
-    <h2>Want More Information</h2>
-    <iframe src="https://forms.office.com/r/Lz3TP0R37S" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen></iframe>
+    <section class="section section-alt">
+      <div class="wrap">
+        <h2 class="sa-h2 center">Ongoing Fractional Operations Support</h2>
+        <p class="sa-body center">For select clients, Summit Agility provides ongoing advisory support to keep improvements moving and address new bottlenecks as the business grows.</p>
+        <div class="grid grid-3">
+          <div class="card"><h3 class="sa-h3">Stay Focused</h3><p class="sa-body">Review priorities, projects, and operational performance on a consistent schedule.</p></div>
+          <div class="card"><h3 class="sa-h3">Keep Improving</h3><p class="sa-body">Strengthen processes, hiring systems, management routines, and accountability.</p></div>
+          <div class="card"><h3 class="sa-h3">Plan the Next Stage</h3><p class="sa-body">Prepare for increased capacity, new employees, services, territories, or locations.</p></div>
+        </div>
+      </div>
+    </section>
 
-    <h2>Why Choose Us</h2>
-    <div class="badges">
-      <img src="InclusiveLeadershipUoP.png" alt="Inclusive Leadership Badge" />
-      <img src="badge-7227.png" alt="Certified Scrum Master Badge" />
-      <img src="badge-50203.png" alt="AI & Agility Class Completion Badge" />
-      <img src="Agile Coaching Badge.png" alt="Agile Coaching Microcredential Badge" />
-    </div>
+    <section class="section">
+      <div class="wrap">
+        <h2 class="sa-h2 center">Is Summit Agility Right for Your Business?</h2>
+        <div class="grid grid-2">
+          <ul class="checklist sa-body"><li>Your company is growing, but operations feel increasingly chaotic.</li><li>You have employees or are preparing to hire.</li><li>Your team depends on you for too many answers.</li><li>Important procedures exist primarily in someone's head.</li></ul>
+          <ul class="checklist sa-body"><li>You struggle to delegate without losing quality or control.</li><li>You want to serve more customers but are unsure whether the operation can handle it.</li><li>You need clearer roles, processes, and accountability.</li><li>You want the business to function when you are not there.</li></ul>
+        </div>
+      </div>
+    </section>
 
-    <h2>Coming Soon</h2>
-    <h1>Resume Shredder</h1>
-    <img src="furious_shredder.png" alt="Cartoon paper shredder with an angry face is actively shredding a stack of documents, with strips of shredded paper spilling out onto the floor. The shredder has exaggerated frustrated features and is set against a simple dark background. The emotional tone is humorous and intense. No visible text appears in the image." style="max-width: 50%; height:auto; display:block; margin-left:auto; margin-right:auto;" class="shake" />
+    <section class="section section-alt">
+      <div class="narrow center">
+        <img class="logo" src="SAlogo.png" alt="Summit Agility logo">
+        <h2 class="sa-h2">Practical Support, Not More Jargon</h2>
+        <p class="sa-body">Summit Agility combines practical business experience with process improvement, project management, facilitation, and modern business tools to create systems that work in the real world.</p>
+        <p class="sa-body"><strong>There are frameworks behind what we do. You do not need to learn them. You need a business that works better.</strong></p>
+        <video controls muted poster="BannerSA.png">
+          <source src="PortfolioVideo.mp4" type="video/mp4">
+          Your browser does not support the video tag. <a href="PortfolioVideo.mp4">Download the video</a>.
+        </video>
+      </div>
+    </section>
+
+    <section id="consultation" class="section">
+      <div class="wrap">
+        <h2 class="sa-h2 center">Ready to Find Out What Is Holding Your Business Back?</h2>
+        <p class="sa-body center">Start with a practical conversation about where your business is today, where you want it to go, and what is making growth harder than it should be.</p>
+        <p class="sa-body center"><strong>Free 30-Minute Growth Consultation</strong><br>No corporate jargon. No pressure. Just a focused conversation about your business and whether Summit Agility can help.</p>
+        <iframe class="consultation-frame" title="Summit Agility consultation form" src="https://forms.office.com/r/Lz3TP0R37S" loading="lazy" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="wrap center">
+        <h2 class="sa-h2">Save Summit Agility's Contact Information</h2>
+        <p class="sa-body">Scan the QR code with a phone camera to save the Summit Agility contact card.</p>
+        <img class="qr" src="vCard%20QR%20Code.png" alt="QR code for the Summit Agility contact card">
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2 class="sa-h2 center">Experience &amp; Credentials</h2>
+        <div class="badges">
+          <img src="InclusiveLeadershipUoP.png" alt="Inclusive Leadership badge">
+          <img src="badge-7227.png" alt="Certified ScrumMaster badge">
+          <img src="badge-50203.png" alt="AI and Agility class completion badge">
+          <img src="Agile%20Coaching%20Badge.png" alt="Agile Coaching microcredential badge">
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <p><a href="Privacy Policy.html">Privacy Policy</a></p> 
-    <p>&copy; 2025 Summit Agility LLC</p>
+  <footer class="site-footer">
+    <p class="sa-body"><strong>Summit Agility LLC</strong> | Small Business Growth &amp; Operations Consulting</p>
+    <p class="sa-body">Helping owner-led businesses build systems, teams, and processes that scale.</p>
+    <p class="sa-body"><a href="Privacy%20Policy.html">Privacy Policy</a></p>
+    <p class="sa-caption" style="color:#fff">&copy; 2026 Summit Agility LLC</p>
   </footer>
-
 </body>
 </html>

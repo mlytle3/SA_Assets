@@ -1,0 +1,30 @@
+:root {
+  /* Brand Colors */
+  --color-primary: #1A1A1A;   /* Deep charcoal for titles */
+  --color-secondary: #444444; /* Medium gray for subtitles/captions */
+  --color-accent: #C94F2D;    /* Accent color for highlights or key words */
+  --color-body: #111111;      /* Main body text */
+  --color-bg: #FFFFFF;        /* Background */
+}
+
+.sa-title {
+  color: var(--color-primary);
+}
+
+.sa-h1,
+.sa-h2,
+.sa-subtitle {
+  color: var(--color-primary);
+}
+
+.sa-body {
+  color: var(--color-body);
+}
+
+.sa-caption {
+  color: var(--color-secondary);
+}
+
+.accent {
+  color: var(--color-accent);
+}

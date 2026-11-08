@@ -1,0 +1,117 @@
+/* ================================
+   Summit Agility – Type System
+   Titles: Molle
+   H1–H2 + Subtitles: League Gothic (all caps)
+   H3–Body: Tw Cen MT (12pt ≈ 16px)
+   Body line spacing: single (1.0)
+   ================================= */
+
+/* 1) Font sources
+   - Host your own font files or add external links.
+   - Tw Cen MT is often local on Windows; provide sane fallbacks. */
+
+/* Example: add your own @font-face here if self-hosting
+@font-face {
+  font-family: "League Gothic";
+  src: url("/fonts/LeagueGothic-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Molle";
+  src: url("/fonts/Molle-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+
+:root {
+  /* Font stacks */
+  --font-title: "Molle", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --font-head: "League Gothic", Impact, "Haettenschweiler", "Arial Narrow", Arial, sans-serif;
+  --font-body: "Tw Cen MT", "Century Gothic", "Futura", "Trebuchet MS", Arial, sans-serif;
+
+  /* Sizes (12pt ≈ 16px) */
+  --size-body: 1rem;             /* 16px */
+  --size-caption: 0.9375rem;     /* 15px */
+  --size-h3: 1.25rem;            /* 20px */
+  --size-h4: 1.125rem;           /* 18px */
+  --size-h2: 2rem;               /* 32px */
+  --size-h1: 2.5rem;             /* 40px */
+  --size-title: clamp(3rem, 6vw, 5rem); /* 48–80px responsive */
+
+  /* Spacing */
+  --lh-single: 1.0;              /* single-spacing */
+  --lh-tight: 1.05;
+  --space-xxs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+}
+
+/* 2) Global body defaults (single-spaced) */
+body {
+  font-family: var(--font-body);
+  font-size: var(--size-body);
+  line-height: var(--lh-single);
+  color: #111;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 3) Title + headings */
+.sa-title {
+  font-family: var(--font-title);
+  font-size: var(--size-title);
+  line-height: var(--lh-tight);
+  margin: 0 0 var(--space-sm);
+}
+
+.sa-h1,
+.sa-h2,
+.sa-subtitle {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: 0.02em; /* subtle tracking since no bold weight */
+  margin: 0;
+}
+
+.sa-h1 { font-size: var(--size-h1); line-height: var(--lh-tight); margin-bottom: var(--space-xs); }
+.sa-h2 { font-size: var(--size-h2); line-height: var(--lh-tight); margin-bottom: var(--space-xs); }
+.sa-subtitle { font-size: calc(var(--size-h2) - 0.25rem); line-height: var(--lh-tight); margin-bottom: var(--space-xs); }
+
+/* 4) Body hierarchy (Tw Cen MT) */
+.sa-h3 { font-family: var(--font-body); font-size: var(--size-h3); line-height: var(--lh-single); margin: 0 0 var(--space-xxs); }
+.sa-h4 { font-family: var(--font-body); font-size: var(--size-h4); line-height: var(--lh-single); margin: 0 0 var(--space-xxs); }
+
+.sa-body { font-family: var(--font-body); font-size: var(--size-body); line-height: var(--lh-single); margin: 0 0 var(--space-sm); }
+.sa-caption { font-family: var(--font-body); font-size: var(--size-caption); line-height: var(--lh-single); color: #444; margin: 0; }
+
+/* 5) Spacing rule: single-spaced paragraph after headings */
+.sa-h1 + .sa-body,
+.sa-h2 + .sa-body,
+.sa-subtitle + .sa-body,
+.sa-title + .sa-body {
+  margin-top: var(--space-xs);   /* small gap between heading and paragraph */
+}
+
+/* 6) Utility classes */
+.upper { text-transform: uppercase; }
+.tight { line-height: var(--lh-tight); }
+.nowrap { white-space: nowrap; }
+.m0 { margin: 0 !important; }
+.mt-xs { margin-top: var(--space-xs) !important; }
+.mb-xs { margin-bottom: var(--space-xs) !important; }
+.mb-sm { margin-bottom: var(--space-sm) !important; }
+
+/* 7) Example container (optional) */
+.sa-section { max-width: 72ch; }
+
+/* 8) Print/PDF tweaks */
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .sa-section { max-width: none; }
+}
